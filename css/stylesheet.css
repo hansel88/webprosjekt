@@ -147,7 +147,9 @@ body {
 	left: -700px;
 	height: 600px;
 	width: 640px;
-	background-color: orange;
+	background-image: url('../bilder/book.png');
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
 	bottom: 50px;
 }
 #info1:target {
@@ -159,33 +161,41 @@ body {
 	left: 10px;
 }
 .bilderamme {
-	height: 200px;
-	width: 300px;
-	left: 0px;
+	height: 150px;
+	width: 250px;
+	left: 58px;
 }
 .bilderamme img {
-	height: 200px;
-	width: 300px;
+	height: 150px;
+	width: 250px;
 }
 #bilderamme1 {
-	top: 0px;
+	top: 55px;
 }
 #bilderamme2 {
-	top: 200px;
+	top: 210px;
 }
 #bilderamme3 {
-	top: 400px;
+	top: 365px;
 }
 
 #side2 {
 	height: 600px;
-	width: 300px;
-	right: 20px;
+	width: 250px;
+	right: 60px;
 	overflow-y: auto;
 }
+
+#side2 h3{
+	top: 50px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+
+}
 .infoTekst {
-	background-color: rgb(190,190,190);
-	font-size: 18px;
-	width: 283px;
+	background-color: transparent;
+	top: 100px;
+	font-size: 16px;
+	width: 250px;
 	margin: 0px;
 }
