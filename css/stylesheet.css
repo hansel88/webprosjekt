@@ -46,27 +46,27 @@ body {
 }
 #holmenKnappen {
 	height: 55px;
-	width: 67px;
+	width: 68px;
 	top: 35px;
-	left: 133px;
+	left: 135px;
 }
 #operaKnappen {
-	height: 52px;
+	height: 54px;
 	width: 83px;
-	bottom: 95px;
+	bottom: 80px;
 	right: 142px;
 }
 #vigelandsKnappen {
 	height: 90px;
 	width: 65px;
 	top: 90px;
-	left: 185px;
+	left: 188px;
 }
 #slottsKnappen {
-	height: 47px;
+	height: 49px;
 	width: 70px;
-	bottom: 125px;
-	left: 230px;
+	bottom: 110px;
+	left: 232px;
 }
 #restaurantKnappen {
 	top: 90px;
@@ -81,13 +81,13 @@ body {
 	right: 58px;
 }
 #kart1 {
-	height: 353px;
+	height: 339px;
 	width: 0px;
 	bottom: 250px;
 	left: -700px;
 	background-color: green;
 	opacity: 0;
-	background-image: url("../bilder/scrolldel2.png");
+	background-image: url("../bilder/scrolldel2v2.png");
 }
 #kart1 * {
 	position: absolute;
@@ -96,7 +96,6 @@ body {
 	top: 12px;
 }
 .kartrull {
-	top: 12px;
 	height: 375px;
 	width: 150px;
 	background-color: rgb(25,125,255);
@@ -123,25 +122,25 @@ body {
 		opacity: 1;
 		bottom: 250px;
 		width: 0px;
-		left: 450px;
+		left: 500px;
 	}
 	50% {
 		opacity: 1;
 		bottom: 250px;
 		width: 0px;
-		left: 450px;
+		left: 500px;
 	}
 	60% {
 		opacity: 1;
 		bottom: 250px;
 		width: 0px;
-		left: 450px;
+		left: 500px;
 	}
 	100% {
 		opacity: 1;
 		bottom: 250px;
-		width: 555px;
-		left: 200px;
+		width: 556px;
+		left: 225px;
 	}
 }
 #info1 {
