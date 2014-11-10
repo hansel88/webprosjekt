@@ -1,0 +1,87 @@
+body {
+	margin: 8px;
+}
+
+#mainFrame {
+	height: 700px;
+	width: 1024px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#mainFrame * {
+	position: absolute;
+}
+
+#vinduWrap {
+	top: 1400px;
+	-webkit-animation-name: showPage;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-fill-mode: forwards;
+	
+}
+
+#subwayAnimationWrap {
+
+	height: 700px;
+	width: 1024px;
+	margin: auto;
+	overflow: hidden;
+    background-image: url("../bilder/panorama.png");
+    background-repeat: no-repeat;			
+    background-position: 0px 0px;
+
+	-webkit-animation-name: animatedBackground;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-duration: 6.5s;
+	-webkit-animation-fill-mode: forwards;
+	/*-webkit-animation-direction: all; */
+}
+
+#subway {
+	height: 700px;
+	width: 1024px;
+	background-image: url("../bilder/tbane.png"); 
+}
+
+
+
+@-webkit-keyframes animatedBackground {
+    0% { 
+    	background-position: 0 0; 
+    	visibility: visible;
+    	top: 0px;
+    }
+    75%{
+    	background-position: -3000px 0;
+    	visibility: visible;
+    	top: 0px;
+    }
+    99%{
+    	background-position: -3000px 0;
+    	visibility: visible;
+    	top: 0px;
+    }
+    100% { 
+    	background-position: -3000px 0;
+    	top: -1400px;
+    	visibility: hidden;
+    }
+}
+
+@-webkit-keyframes showPage {
+    0% { 
+    	top: 1400px;
+    	visibility: hidden;
+    }
+    99%{
+    	top: 1400px;
+    	visibility: hidden;
+    }
+    100% { 
+    	top: 0px;
+    	visibility: visible; 
+    }
+}
+

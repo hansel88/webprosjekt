@@ -3,41 +3,47 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="../css/stylesheet.css"/>
 	<link rel="stylesheet" type="text/css" href="../css/operastyles.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/subwayAnimations.css"/>
 	<meta charset="utf-8">
 	<title></title>
 </head>
 <body>
-	<section id="vinduWrap">
-		<a id="kartknapp" class="aapneKnapp" href="#kart1"></a>
-		<a id="infoknapp" class="aapneKnapp" href="#info1"></a>
-		<div class="kart" id="kart1">
-			<a class="exitKnapp" id="kartexit" href="#kartVekk"></a>
-			<a class="lokaleKnapp" id="holmenKnappen" href=""></a>
-			<a class="lokaleKnapp" id="operaKnappen" href=""></a>
-			<a class="lokaleKnapp" id="slottsKnappen" href=""></a>
-			<a class="lokaleKnapp" id="vigelandsKnappen" href=""></a>
-			<a class="lokaleKnapp" id="restaurantKnappen" href=""></a>
-			<a class="lokaleKnapp" id="hjemKnappen" href=""></a>
-			<div class="kartrull" id="rullV"></div>
-			<div class="kartrull" id="rullH"></div>
-		</div>
-		<div id="info1">
-			<a class="exitKnapp" id="infoExitKnapp" href="#infoVekk"></a>
-			<div id="side1">
-				<div class="bilderamme" id="bilderamme1">
-					<img class="infoBilde" id="bilde1" src="..\bilder\">
+	<section id="mainFrame">
+		<section id="subwayAnimationWrap">
+			<div id="subway"></div>
+		</section>
+		<section id="vinduWrap">
+			<a id="kartknapp" class="aapneKnapp" href="#kart1"></a>
+			<a id="infoknapp" class="aapneKnapp" href="#info1"></a>
+			<div class="kart" id="kart1">
+				<a class="exitKnapp" id="kartexit" href="#kartVekk"></a>
+				<a class="lokaleKnapp" id="holmenKnappen" href=""></a>
+				<a class="lokaleKnapp" id="operaKnappen" href=""></a>
+				<a class="lokaleKnapp" id="slottsKnappen" href=""></a>
+				<a class="lokaleKnapp" id="vigelandsKnappen" href=""></a>
+				<a class="lokaleKnapp" id="restaurantKnappen" href=""></a>
+				<a class="lokaleKnapp" id="hjemKnappen" href=""></a>
+				<div class="kartrull" id="rullV"></div>
+				<div class="kartrull" id="rullH"></div>
+			</div>
+			<div id="info1">
+				<a class="exitKnapp" id="infoExitKnapp" href="#infoVekk"></a>
+				<div id="side1">
+					<div class="bilderamme" id="bilderamme1">
+						<img class="infoBilde" id="bilde1" src="..\bilder\">
+					</div>
+					<div class="bilderamme" id="bilderamme2">
+						<img class="infoBilde" id="bilde1" src="..\bilder\">
+					</div>
+					<div class="bilderamme" id="bilderamme3">
+						<img class="infoBilde" id="bilde1" src="..\bilder\">
+					</div>
 				</div>
-				<div class="bilderamme" id="bilderamme2">
-					<img class="infoBilde" id="bilde1" src="..\bilder\">
-				</div>
-				<div class="bilderamme" id="bilderamme3">
-					<img class="infoBilde" id="bilde1" src="..\bilder\">
+				<div id="side2">
+					<p class="infoTekst"></p>
 				</div>
 			</div>
-			<div id="side2">
-				<p class="infoTekst"></p>
-			</div>
-		</div>
+		</section>
 	</section>
 </body>
 </html>
