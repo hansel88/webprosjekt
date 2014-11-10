@@ -110,17 +110,17 @@ body {
     	top: 0px;
     }
     65%{
-    	background-position: -3000px 0;
+    	background-position: -3200px 0;
     	visibility: visible;
     	top: 0px;
     }
     99%{
-    	background-position: -3000px 0;
+    	background-position: -3200px 0;
     	visibility: visible;
     	top: 0px;
     }
     100% { 
-    	background-position: -3000px 0;
+    	background-position: -3200px 0;
     	top: -1400px;
     	visibility: hidden;
     }
