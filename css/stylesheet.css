@@ -98,15 +98,15 @@ body {
 .kartrull {
 	height: 375px;
 	width: 150px;
-	background-color: rgb(25,125,255);
+	/*background-color: rgb(25,125,255);*/
 }
 #rullV {
-	background-image: url("../bilder/scrolldel1.png");
+	background-image: url("../bilder/scrolldel1v2.png");
 	width: 150px;
 	left: -150px;
 }
 #rullH {
-	background-image: url("../bilder/scrolldel3.png");
+	background-image: url("../bilder/scrolldel3v2.png");
 	width: 150px;
 	right: -150px;
 }
