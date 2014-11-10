@@ -17,7 +17,7 @@ body {
 	top: 1400px;
 	-webkit-animation-name: showPage;
 	-webkit-animation-timing-function: linear;
-	-webkit-animation-duration: 7s;
+	-webkit-animation-duration: 7.5s;
 	-webkit-animation-fill-mode: forwards;
 }
 
@@ -32,7 +32,7 @@ body {
 
 	-webkit-animation-name: animatedBackground;
 	-webkit-animation-timing-function: ease-out;
-	-webkit-animation-duration: 6.5s;
+	-webkit-animation-duration: 7s;
 	-webkit-animation-fill-mode: forwards;
 }
 
@@ -109,7 +109,7 @@ body {
     	visibility: visible;
     	top: 0px;
     }
-    70%{
+    65%{
     	background-position: -3000px 0;
     	visibility: visible;
     	top: 0px;
