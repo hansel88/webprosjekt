@@ -25,7 +25,7 @@ body {
 	height: 700px;
 	width: 1024px;
 	margin: auto;
-	overflow: hidden;
+	overflow: hidden; 
     background-image: url("../bilder/panorama.png");
     background-repeat: no-repeat;			
     background-position: 0px 0px;
@@ -34,7 +34,6 @@ body {
 	-webkit-animation-timing-function: ease-out;
 	-webkit-animation-duration: 6.5s;
 	-webkit-animation-fill-mode: forwards;
-	/*-webkit-animation-direction: all; */
 }
 
 #subway {
@@ -51,6 +50,57 @@ body {
 	bottom: 10px;
 }
 
+.billyBobOnSubwayEyes
+{
+	height: 55px;
+	width: 60px;
+	left: 530px;
+	bottom: 170px;
+}
+
+.eyes_open
+{
+	visibility: hidden;
+	-webkit-animation-name: eyes_blink1;
+	-webkit-animation-duration: 1.2s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+}
+
+.eyes_crossed
+{
+	visibility: hidden;
+	-webkit-animation-name: eyes_blink2;
+	-webkit-animation-duration: 1.2s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate; 
+}
+
+@-webkit-keyframes eyes_blink1{
+	75%{
+		visibility: visible;
+	}
+	80%{
+		visibility: hidden;
+	}
+
+	100%{
+	}
+}
+
+@-webkit-keyframes eyes_blink2{
+	75%{
+		visibility: hidden;
+	}
+	80%{
+	}
+
+	100%{
+		visibility: visible;
+	}
+}
 
 
 @-webkit-keyframes animatedBackground {
@@ -59,7 +109,7 @@ body {
     	visibility: visible;
     	top: 0px;
     }
-    75%{
+    70%{
     	background-position: -3000px 0;
     	visibility: visible;
     	top: 0px;
