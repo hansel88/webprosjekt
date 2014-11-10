@@ -41,68 +41,73 @@ body {
 	border-radius: 100%;
 }
 .lokaleKnapp:hover {
-	background-color: rgb(125,125,125);
+	background-color: rgb(225,225,225);
 	opacity: 0.5;
 }
 #holmenKnappen {
-	height: 100px;
-	width: 75px;
-	top: 50px;
-	left: 150px;
+	height: 55px;
+	width: 67px;
+	top: 35px;
+	left: 133px;
 }
 #operaKnappen {
-	height: 90px;
-	width: 85px;
-	bottom: 165px;
-	right: 155px;
+	height: 52px;
+	width: 83px;
+	bottom: 95px;
+	right: 142px;
 }
 #vigelandsKnappen {
-	height: 150px;
-	width: 75px;
-	top: 150px;
-	left: 205px;
+	height: 90px;
+	width: 65px;
+	top: 90px;
+	left: 185px;
 }
 #slottsKnappen {
-	height: 80px;
-	width: 75px;
-	bottom: 218px;
-	left: 252px;
+	height: 47px;
+	width: 70px;
+	bottom: 125px;
+	left: 230px;
 }
-#karlJohansKnappen {
-	top: 200px;
-	left: 250px;
+#restaurantKnappen {
+	top: 90px;
+	right: 187px;
+	height: 72px;
+	width: 83px;
 }
 #hjemKnappen {
-	bottom: 0px;
-	left: 250px;
+	height: 69px;
+	width: 75px;
+	top: 40px;
+	right: 58px;
 }
 #kart1 {
-	height: 600px;
+	height: 353px;
 	width: 0px;
-	bottom: 50px;
+	bottom: 250px;
 	left: -700px;
 	background-color: green;
 	opacity: 0;
-	background-image: url("../bilder/kart2.png");
-	background-size: 600px 600px;
+	background-image: url("../bilder/scrolldel2.png");
 }
 #kart1 * {
 	position: absolute;
 }
+#kartexit{
+	top: 12px;
+}
 .kartrull {
-	height: 600px;
+	top: 12px;
+	height: 375px;
 	width: 150px;
 	background-color: rgb(25,125,255);
 }
 #rullV {
-	background-image: url("../bilder/kartrullV.jpg");
-	background-size: 150px 600px;
+	background-image: url("../bilder/scrolldel1.png");
 	width: 150px;
 	left: -150px;
 }
 #rullH {
-	background-image: url("../bilder/kartrullH.jpg");
-	background-size: 150px 600px;
+	background-image: url("../bilder/scrolldel3.png");
 	width: 150px;
 	right: -150px;
 }
@@ -116,26 +121,26 @@ body {
 @-webkit-keyframes kartUt {
 	0% {
 		opacity: 1;
-		bottom: 50px;
+		bottom: 250px;
 		width: 0px;
 		left: 450px;
 	}
 	50% {
 		opacity: 1;
-		bottom: 50px;
+		bottom: 250px;
 		width: 0px;
 		left: 450px;
 	}
 	60% {
 		opacity: 1;
-		bottom: 50px;
+		bottom: 250px;
 		width: 0px;
 		left: 450px;
 	}
 	100% {
 		opacity: 1;
-		bottom: 50px;
-		width: 600px;
+		bottom: 250px;
+		width: 555px;
 		left: 200px;
 	}
 }
