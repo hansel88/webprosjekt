@@ -147,8 +147,6 @@ body {
 	height: 600px;
 	width: 640px;
 	background-image: url('../bilder/book.png');
-	background-size: 100% 100%;
-    background-repeat: no-repeat;
 	bottom: 50px;
 }
 #info1:target {
@@ -166,7 +164,7 @@ body {
 .bilderamme {
 	height: 150px;
 	width: 250px;
-	left: 58px;
+	left: 25px;
 }
 .bilderamme img {
 	height: 150px;
