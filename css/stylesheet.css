@@ -155,6 +155,10 @@ body {
 #info1:target {
 	left: 200px;
 }
+#infoExitKnapp {
+	top: 50px;
+	right: 30px;
+}
 #side1 {
 	height: 600px;
 	width: 300px;
