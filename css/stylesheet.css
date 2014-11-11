@@ -36,8 +36,7 @@ body {
 .exitKnapp {
 	height: 20px;
 	width: 20px;
-	background-color: rgb(0,0,0);
-	top: 0px;
+	background-image: url("../bilder/kryss.png");
 	right: 0px;
 	display: block;
 }
@@ -90,8 +89,6 @@ body {
 	width: 0px;
 	bottom: 250px;
 	left: -700px;
-	background-color: green;
-	opacity: 0;
 	background-image: url("../bilder/scrolldel2v2.png");
 }
 #kart1 * {
@@ -103,7 +100,6 @@ body {
 .kartrull {
 	height: 375px;
 	width: 150px;
-	/*background-color: rgb(25,125,255);*/
 }
 #rullV {
 	background-image: url("../bilder/scrolldel1v2.png");
@@ -112,7 +108,7 @@ body {
 }
 #rullH {
 	background-image: url("../bilder/scrolldel3v2.png");
-	width: 150px;
+	width: 155px;
 	right: -150px;
 }
 #kart1:target {
@@ -124,19 +120,16 @@ body {
 }
 @-webkit-keyframes kartUt {
 	0% {
-		opacity: 1;
 		bottom: 250px;
 		width: 0px;
 		left: 500px;
 	}
 	50% {
-		opacity: 1;
 		bottom: 250px;
 		width: 0px;
 		left: 500px;
 	}
 	100% {
-		opacity: 1;
 		bottom: 250px;
 		width: 556px;
 		left: 225px;
@@ -194,7 +187,6 @@ body {
 
 }
 .infoTekst {
-	background-color: transparent;
 	top: 100px;
 	font-size: 16px;
 	width: 250px;
