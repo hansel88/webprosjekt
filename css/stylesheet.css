@@ -12,6 +12,7 @@ body {
 }
 #vinduWrap * {
 	position: absolute;
+	font-family: times;
 }
 .aapneKnapp {
 	height: 75px;
@@ -28,9 +29,8 @@ body {
 	right: 50px;
 	background-image: url("../bilder/bookthumb.png");
 	text-align: center;
-	font-size: 50px;
+	font-size: 65px;
 	text-decoration: none;
-	font-weight: bolder;
 	color: rgb(0,0,0);
 }
 .exitKnapp {
@@ -96,6 +96,7 @@ body {
 }
 #kartexit{
 	top: 12px;
+	right: 5px;
 }
 .kartrull {
 	height: 375px;
