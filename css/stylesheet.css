@@ -24,6 +24,17 @@ body {
 	right: 50px;
 	background-image: url("../bilder/scrollthumb.png");
 }
+
+/* kan bytte til andre effekter, evt ingen effekter senere - bare et forslag*/
+#kartknapp:hover
+{
+	-webkit-transform: rotate(15deg);
+}
+#infoknapp:hover
+{
+	-webkit-transform: rotate(-15deg);
+}
+
 #infoknapp {
 	top:450px;
 	right: 50px;
