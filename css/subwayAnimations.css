@@ -24,7 +24,7 @@ body {
 	-webkit-animation-name: animatedBackground;
 	-webkit-animation-timing-function: ease-out;
 	-webkit-animation-delay: 1.5s;
-	-webkit-animation-duration: 7.5s;
+	-webkit-animation-duration: 9s;
 	-webkit-animation-fill-mode: forwards; 
 }
 
@@ -38,7 +38,7 @@ body {
 	-webkit-animation-name: showPage;
 	-webkit-animation-timing-function: ease-out;
 	-webkit-animation-delay: 1.5s;
-	-webkit-animation-duration: 7.5s;
+	-webkit-animation-duration: 9s;
 	-webkit-animation-fill-mode: forwards;
 	
 }
@@ -53,20 +53,33 @@ body {
     background-size: cover;
 }
 
+#billyBobOnSubwayImg
+{
+	height: 300px;
+	width: 230px;
+}
+
+
 #billyBobOnSubway
 {
 	height: 300px;
 	width: 230px;
 	left: 445px;
 	bottom: 10px;
+
+	-webkit-animation-name: billyWalksOut;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-delay: 6s;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards;
 }
 
 .billyBobOnSubwayEyes
 {
 	height: 55px;
 	width: 70px;
-	left: 525px;
-	bottom: 170px;
+	left: 80px;
+	bottom: 160px;
 }
 
 .eyes_open
@@ -87,6 +100,64 @@ body {
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-direction: alternate; 
+}
+
+@-webkit-keyframes billyWalksOut{
+	0%{
+		left: 445px;
+		bottom: 10px;
+		 -webkit-transform: rotate(0deg);
+	}
+	10%{
+		left: 445px;
+		bottom: -30px;
+		 -webkit-transform: rotate(0deg);
+	}
+	20%{
+		left: 445px;
+		bottom: -70px;
+		 -webkit-transform: rotate(0deg);
+	}
+	30%{
+		left: 420px;
+		bottom: -100px;
+		 -webkit-transform: rotate(0deg);
+	}
+	40%{
+		left: 380px;
+		bottom: -100px;
+		 -webkit-transform: rotate(0deg);
+	}
+	50%{
+		left: 300px;
+		bottom: -100px;
+		 -webkit-transform: rotate(0deg);
+	}
+	60%{
+		left: 240px;
+		bottom: -100px;
+		 -webkit-transform: rotate(10deg);
+	}
+	70%{
+		left: 140px;
+		bottom: -100px;
+		 -webkit-transform: rotate(0deg);
+	}
+	80%{
+		left: 40px;
+		bottom: -100px;
+		 -webkit-transform: rotate(10deg);
+	}
+	90%{
+		left: -80px;
+		bottom: -100px;
+		 -webkit-transform: rotate(0deg);
+	}
+	100%{
+		left: -250px;
+		bottom: -100px;
+		-webkit-transform: rotate(10deg);
+	}
 }
 
 @-webkit-keyframes eyes_blink1{
@@ -119,7 +190,7 @@ body {
     	background-position: 0 0; 
     	left: 0;
     }
-    55%{
+    45%{
     	background-position: -3200px 0;
     	left: 0;
     }
