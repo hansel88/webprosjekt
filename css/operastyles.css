@@ -2,7 +2,10 @@
 
 #vinduWrap {
 	background-image: url("../bilder/opera.jpg");
-	background-size: 100% 100%;
-    background-repeat: no-repeat;
+
+    /*
+    background-repeat: no-repeat;			
+    background-position: 0px 0px;
+    */
 }
 

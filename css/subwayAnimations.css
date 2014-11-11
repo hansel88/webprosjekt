@@ -1,11 +1,12 @@
 body {
-	margin: 8px;
+	/*margin: 8px;*/
 }
 
 #mainFrame {
 	height: 700px;
 	width: 1024px;
 	margin: auto;
+	position: relative;
 	overflow: hidden;
 }
 
@@ -13,33 +14,43 @@ body {
 	position: absolute;
 }
 
-#vinduWrap {
-	top: 1400px;
-	-webkit-animation-name: showPage;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-duration: 7.5s;
-	-webkit-animation-fill-mode: forwards;
-}
-
 #subwayAnimationWrap {
 	height: 700px;
 	width: 1024px;
-	margin: auto;
-	overflow: hidden; 
     background-image: url("../bilder/panorama.png");
     background-repeat: no-repeat;			
     background-position: 0px 0px;
 
 	-webkit-animation-name: animatedBackground;
 	-webkit-animation-timing-function: ease-out;
-	-webkit-animation-duration: 7s;
+	-webkit-animation-delay: 1.5s;
+	-webkit-animation-duration: 7.5s;
+	-webkit-animation-fill-mode: forwards; 
+}
+
+#vinduWrap {
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	left: 1024px;
+	
+	-webkit-animation-name: showPage;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-delay: 1.5s;
+	-webkit-animation-duration: 7.5s;
 	-webkit-animation-fill-mode: forwards;
+	
 }
 
 #subway {
 	height: 700px;
 	width: 1024px;
-	background-image: url("../bilder/tbane.png"); 
+	background-image: url("../bilder/tbane.png");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #billyBobOnSubway
@@ -106,38 +117,32 @@ body {
 @-webkit-keyframes animatedBackground {
     0% { 
     	background-position: 0 0; 
-    	visibility: visible;
-    	top: 0px;
+    	left: 0;
     }
-    65%{
+    55%{
     	background-position: -3200px 0;
-    	visibility: visible;
-    	top: 0px;
+    	left: 0;
     }
-    99%{
+    80%
+    {
     	background-position: -3200px 0;
-    	visibility: visible;
-    	top: 0px;
+    	left: 0;
     }
     100% { 
     	background-position: -3200px 0;
-    	top: -1400px;
-    	visibility: hidden;
+    	left: -1024px;
     }
 }
 
 @-webkit-keyframes showPage {
     0% { 
-    	top: 1400px;
-    	visibility: hidden;
+    	left: 1024px;
     }
-    99%{
-    	top: 1400px;
-    	visibility: hidden;
+    80%{
+    	left: 1024px;
     }
     100% { 
-    	top: 0px;
-    	visibility: visible; 
+    	left: 0px;
     }
 }
 
