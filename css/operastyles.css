@@ -4,3 +4,16 @@
 	background-image: url("../bilder/opera.jpg");
 }
 
+#billyBob {
+	height: 300px;
+	width: 250px;
+	left: 250px;
+	bottom: 0px;
+}
+
+.billyBobEyes {
+	height: 60px;
+	width: 80px;
+	left: 335px;
+	bottom: 160px;
+}
