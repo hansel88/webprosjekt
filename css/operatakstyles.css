@@ -19,7 +19,7 @@
 	bottom: 160px;
 }
 .eyes_open {
-	visibility: hidden;
+	opacity: 1;
 	-webkit-animation-name: eyes_blink1;
 	-webkit-animation-duration: 1.2s;
 	-webkit-animation-timing-function: linear;
@@ -28,7 +28,7 @@
 }
 
 .eyes_crossed {
-	visibility: hidden;
+	opacity: 0;
 	-webkit-animation-name: eyes_blink2;
 	-webkit-animation-duration: 1.2s;
 	-webkit-animation-timing-function: linear;
@@ -36,27 +36,72 @@
 	-webkit-animation-direction: alternate; 
 }
 @-webkit-keyframes eyes_blink1{
-	75%{
-		visibility: visible;
+	0% {
+		opacity: 1;
+	}
+	65% {
+		opacity: 1;
+	}
+	66%{
+		opacity: 0;
+	}
+	79% {
+		opacity: 0;
 	}
 	80%{
-		visibility: hidden;
+		opacity: 1;
 	}
 
 	100%{
+		opacity: 1;
 	}
 }
 @-webkit-keyframes eyes_blink2{
-	75%{
-		visibility: hidden;
+	0% {
+		opacity: 0;
+	}
+	65% {
+		opacity: 0;
+	}
+	66%{
+		opacity: 1;
+	}
+	79% {
+		opacity: 1;
 	}
 	80%{
+		opacity: 0;
 	}
 
 	100%{
-		visibility: visible;
+		opacity: 0;
 	}
 }
+#mouth {
+	height: 30px;
+	width: 55px;
+	left: 85px;
+	bottom: 132px;
+	opacity: 0;
+
+	-webkit-animation-name: showMouth;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 4.5s;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes showMouth {
+	0% {
+		opacity: 0;
+	}
+	99% {
+		opacity: 0;	
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 #kjendis {
 	left: 1060px;
 	bottom: 0px;
