@@ -12,7 +12,6 @@ body {
 }
 #vinduWrap * {
 	position: absolute;
-	font-family: times;
 }
 .aapneKnapp {
 	height: 75px;
@@ -221,4 +220,7 @@ body {
 	font-size: 16px;
 	width: 250px;
 	margin: 0px;
+}
+p { 
+	font-family: "Sans Serif";
 }
