@@ -19,7 +19,7 @@ body {
 	display: block;
 }
 #kartknapp {
-	top:150px;
+	top:50px;
 	right: 50px;
 	background-image: url("../bilder/scrollthumb.png");
 }
@@ -52,8 +52,8 @@ body {
 }
 
 #infoknapp {
-	top:450px;
-	right: 50px;
+	top:50px;
+	right: 150px;
 	background-image: url("../bilder/bookthumb.png");
 	text-align: center;
 	font-size: 65px;
