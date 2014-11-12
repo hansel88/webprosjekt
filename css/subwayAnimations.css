@@ -28,6 +28,13 @@ body {
 	-webkit-animation-fill-mode: forwards; 
 }
 
+/*
+#skilt {
+	right: 400px;
+	top: 150px;
+}
+*/
+
 #vinduWrap {
 	-webkit-background-size: cover;
     -moz-background-size: cover;
