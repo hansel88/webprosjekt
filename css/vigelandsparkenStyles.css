@@ -1,5 +1,5 @@
 #vinduWrap {
-	background-image: url("../bilder/statue.jpg");
+	background-image: url("../bilder/utenfotogbabyunder.png");
 }
 
 
@@ -26,6 +26,113 @@
 	width: 80px;
 	left: 85px;
 	bottom: 160px;
+}
+
+#mouth {
+	height: 30px;
+	width: 60px;
+	left: 93px;
+	bottom: 132px;
+	visibility: hidden;
+
+	-webkit-animation-name: showMouth;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 17s;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#statueFot {
+	height: 70px;
+	width: 20px;
+	left: 540px;
+	bottom: 335px;
+
+	-webkit-animation-name: statueKick;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-delay: 15s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#statueBaby{
+	left: 520px;
+	bottom: 320px;
+
+	-webkit-animation-name: babyFlies;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 17s;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes showMouth {
+	from {
+		visibility: hidden;
+	}
+	to {
+		visibility: visible;
+	}
+}
+
+@-webkit-keyframes babyFlies {
+	0%{
+		-webkit-transform: rotate(30deg);
+		left: 540px;
+		bottom: 330px;
+	}
+	25% {
+		-webkit-transform: rotate(80deg);
+		left: 380px;
+		bottom: 350px;
+	}
+	50% {
+		-webkit-transform: rotate(130deg);
+		left: 280px;
+		bottom: 370px;
+	}
+	75%{
+		-webkit-transform: rotate(200deg);
+		left: 180px;
+		bottom: 400px;
+	}
+	75%{
+		-webkit-transform: rotate(250deg);
+		left: 100px;
+		bottom: 430px;
+	}
+	100%{
+		-webkit-transform: rotate(320deg);
+		left: -100px;
+		bottom: 450px;
+	}
+}
+
+@-webkit-keyframes statueKick {
+	0%{
+		-webkit-transform: rotate(-10deg);
+		left: 545px;
+	}
+	25% {
+		-webkit-transform: rotate(-20deg);
+		left: 545px;
+	}
+	50% {
+		-webkit-transform: rotate(-30deg);
+		left: 550px;
+	}
+	75%{
+		-webkit-transform: rotate(60deg);
+		left: 510px;
+	}
+	90%{
+		-webkit-transform: rotate(40deg);
+		left: 525px;
+	}
+	100%{
+		-webkit-transform: rotate(0deg);
+		left: 540px;
+	}
 }
 
 @-webkit-keyframes walkIn{
