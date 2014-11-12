@@ -2,22 +2,23 @@
 	background-image: url("../bilder/operatak.jpg")
 }
 #billyBobimg {
+	left: 0px;
 	height: 300px;
-	width: 250px;
+	width: 230px;
 }
 #billybob {
+	left: 0px;
 	bottom: 0px;
 	height: 300px;
-	width: 250px;
+	width: 220px;
 }
 .billyBobEyes {
 	height: 60px;
 	width: 80px;
-	left: 85px;
+	left: 75px;
 	bottom: 160px;
 }
-.eyes_open
-{
+.eyes_open {
 	visibility: hidden;
 	-webkit-animation-name: eyes_blink1;
 	-webkit-animation-duration: 1.2s;
@@ -26,8 +27,7 @@
 	-webkit-animation-direction: alternate;
 }
 
-.eyes_crossed
-{
+.eyes_crossed {
 	visibility: hidden;
 	-webkit-animation-name: eyes_blink2;
 	-webkit-animation-duration: 1.2s;
@@ -46,7 +46,6 @@
 	100%{
 	}
 }
-
 @-webkit-keyframes eyes_blink2{
 	75%{
 		visibility: hidden;
@@ -77,26 +76,77 @@
 		bottom: 0px;
 	}
 	50% {
-		left: 700px;
+		left: 550px;
 		bottom: 225px;
 	}
 	60% {
-		left: 700px;
+		left: 550px;
 		bottom: 225px;
 	}
 	70% {
-		left: 630px;
-		bottom: 300px;
+		left: 350px;
+		bottom: 350px;
+	}
+	98% {
+		left: 200px;
+		bottom: -300px;
+	}
+	99% {
+		left: 1060px;
+		bottom: -300px;
 	}
 	100% {
-		left: 600px;
+		left: 1060px;
 		bottom: 0px;
 	}
 }
-#kjendiswrap {
-	left: 600px;
+#fangirls {
+	left: 1060px;
 	bottom: 0px;
-	height: 250px;
-	width: 200px;
-	background-color: transparent;
+	height: 300px;
+	width: 250px;
+	background-color: black;
+
+	-webkit-animation-name: kjendisihavet;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-delay: 3.5s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes kjendisihavet {
+	0% {
+		left: 1060px;
+		bottom: 0px;
+	}
+	50% {
+		left: 550px;
+		bottom: 225px;
+	}
+	60% {
+		left: 550px;
+		bottom: 225px;
+	}
+	70% {
+		left: 350px;
+		bottom: 350px;
+	}
+	98% {
+		left: 200px;
+		bottom: -300px;
+	}
+	99% {
+		left: 1060px;
+		bottom: -300px;
+	}
+	100% {
+		left: 1060px;
+		bottom: 0px;
+	}
+}
+#utsnitt {
+	background-image: url("../bilder/operatakutsnitt.png");
+	bottom: 0px;
+	left: 200px;
+	width: 350px;
+	height: 280px;
 }
