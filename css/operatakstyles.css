@@ -158,36 +158,6 @@
 	-webkit-animation-duration: 3s;
 	-webkit-animation-timing-function: linear;
 }
-@-webkit-keyframes kjendisihavet {
-	0% {
-		left: 1060px;
-		bottom: 0px;
-	}
-	50% {
-		left: 550px;
-		bottom: 225px;
-	}
-	60% {
-		left: 550px;
-		bottom: 225px;
-	}
-	70% {
-		left: 350px;
-		bottom: 350px;
-	}
-	98% {
-		left: 200px;
-		bottom: -300px;
-	}
-	99% {
-		left: 1060px;
-		bottom: -300px;
-	}
-	100% {
-		left: 1060px;
-		bottom: 0px;
-	}
-}
 #utsnitt {
 	background-image: url("../bilder/operatakutsnitt.png");
 	bottom: 0px;
