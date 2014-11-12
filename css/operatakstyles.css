@@ -1,0 +1,102 @@
+#vinduWrap {
+	background-image: url("../bilder/operatak.jpg")
+}
+#billyBobimg {
+	height: 300px;
+	width: 250px;
+}
+#billybob {
+	bottom: 0px;
+	height: 300px;
+	width: 250px;
+}
+.billyBobEyes {
+	height: 60px;
+	width: 80px;
+	left: 85px;
+	bottom: 160px;
+}
+.eyes_open
+{
+	visibility: hidden;
+	-webkit-animation-name: eyes_blink1;
+	-webkit-animation-duration: 1.2s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+}
+
+.eyes_crossed
+{
+	visibility: hidden;
+	-webkit-animation-name: eyes_blink2;
+	-webkit-animation-duration: 1.2s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate; 
+}
+@-webkit-keyframes eyes_blink1{
+	75%{
+		visibility: visible;
+	}
+	80%{
+		visibility: hidden;
+	}
+
+	100%{
+	}
+}
+
+@-webkit-keyframes eyes_blink2{
+	75%{
+		visibility: hidden;
+	}
+	80%{
+	}
+
+	100%{
+		visibility: visible;
+	}
+}
+#kjendis {
+	left: 1060px;
+	bottom: 0px;
+	height: 300px;
+	width: 250px;
+	background-color: black;
+
+	-webkit-animation-name: kjendisihavet;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-delay: 2s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes kjendisihavet {
+	0% {
+		left: 1060px;
+		bottom: 0px;
+	}
+	50% {
+		left: 700px;
+		bottom: 225px;
+	}
+	60% {
+		left: 700px;
+		bottom: 225px;
+	}
+	70% {
+		left: 630px;
+		bottom: 300px;
+	}
+	100% {
+		left: 600px;
+		bottom: 0px;
+	}
+}
+#kjendiswrap {
+	left: 600px;
+	bottom: 0px;
+	height: 250px;
+	width: 200px;
+	background-color: transparent;
+}
