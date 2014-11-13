@@ -21,11 +21,9 @@ body {
 #kartknapp {
 	top:50px;
 	right: 50px;
-	/*background-image: url("../bilder/scrollthumb.png");*/
-	background-image: url("../bilder/kart/thumbnail.png");
+	background-image: url("../bilder/meny/kart/thumbnail.png");
 }
 
-/* kan bytte til andre effekter, evt ingen effekter senere - bare et forslag*/
 #kartknapp:hover
 {
 	-webkit-transform: rotate(15deg);
@@ -56,7 +54,7 @@ body {
 	top:50px;
 	right: 150px;
 	margin-right: 30px;
-	background-image: url("../bilder/bookthumb.png");
+	background-image: url("../bilder/meny/turistguide/bookthumb.png");
 	text-align: center;
 	font-size: 65px;
 	text-decoration: none;
@@ -65,7 +63,7 @@ body {
 .exitKnapp {
 	height: 20px;
 	width: 20px;
-	background-image: url("../bilder/kryss.png");
+	background-image: url("../bilder/meny/kryss.png");
 	right: 0px;
 	display: block;
 }
@@ -119,8 +117,7 @@ body {
 	width: 0px;
 	bottom: 250px;
 	left: -700px;
-	/*background-image: url("../bilder/scrolldel2v2.png");*/
-	background-image: url("../bilder/kart/scroll del2.png");
+	background-image: url("../bilder/meny/kart/scroll del2.png");
 }
 #kart1 * {
 	position: absolute;
@@ -134,15 +131,13 @@ body {
 	width: 150px;
 }
 #rullV {
-	/*background-image: url("../bilder/scrolldel1v2.png");*/
-	background-image: url("../bilder/kart/scroll del1.png");
+	background-image: url("../bilder/meny/kart/scroll del1.png");
 	width: 150px;
 	left: -149px;
 	top: -8px;
 }
 #rullH {
-	/*background-image: url("../bilder/scrolldel3v2.png");*/
-	background-image: url("../bilder/kart/scroll del3.png");
+	background-image: url("../bilder/meny/kart/scroll del3.png");
 	width: 150px;
 	right: -150px;
 	top: -15px;
@@ -175,7 +170,7 @@ body {
 	left: -700px;
 	height: 600px;
 	width: 640px;
-	background-image: url('../bilder/book.png');
+	background-image: url('../bilder/meny/turistguide/book.png');
 	bottom: 50px;
 }
 #info1:target {

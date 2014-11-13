@@ -1,5 +1,5 @@
 #vinduWrap {
-	background-image: url("../bilder/holmenkollentopp.jpg")
+	background-image: url("../bilder/holmenkollen/holmenkollentopp.jpg")
 }
 #billyBobimg {
 	left: 0px;
@@ -103,7 +103,7 @@
 }
 
 #holmenkollentopputsnitt {
-	background-image: url("../bilder/holmenkollentopputsnitt.png");
+	background-image: url("../bilder/holmenkollen/holmenkollentopputsnitt.png");
 	height: 300px;
 	width: 573px;
 	bottom: 0px;
@@ -115,7 +115,7 @@
 	width: 210px;
 	top: 0px;
 	left: 1274px;
-	background-image: url("../bilder/skihopper2.png");
+	background-image: url("../bilder/holmenkollen/skihopper2.png");
 
 	-webkit-animation-name: skihopper;
 	-webkit-animation-delay: 2s;

@@ -17,7 +17,7 @@ body {
 #subwayAnimationWrap {
 	height: 700px;
 	width: 1024px;
-    background-image: url("../bilder/panorama.jpg");
+    background-image: url("../bilder/tbane/panorama.jpg");
     background-repeat: no-repeat;			
     background-position: 0px 0px;
 
@@ -53,7 +53,7 @@ body {
 #subway {
 	height: 700px;
 	width: 1024px;
-	background-image: url("../bilder/tbane.png");
+	background-image: url("../bilder/tbane/tbane.png");
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

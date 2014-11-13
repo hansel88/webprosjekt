@@ -1,5 +1,5 @@
 #vinduWrap {
-	background-image: url("../bilder/operatak.jpg")
+	background-image: url("../bilder/opera/operatak.jpg")
 }
 #billyBobimg {
 	left: 0px;
@@ -107,7 +107,7 @@
 	bottom: 0px;
 	height: 300px;
 	width: 130px;
-	background-image: url("../bilder/antichrist.png");
+	background-image: url("../bilder/opera/antichrist.png");
 
 	-webkit-animation-name: kjendisihavet;
 	-webkit-animation-fill-mode: forwards;
@@ -175,7 +175,7 @@
 	bottom: 0px;
 	height: 100px;
 	width: 150px;
-	background-image: url("../bilder/hellspawn.png");
+	background-image: url("../bilder/opera/hellspawn.png");
 
 	-webkit-animation-name: kjendisihavet;
 	-webkit-animation-fill-mode: forwards;
@@ -184,7 +184,7 @@
 	-webkit-animation-timing-function: linear;
 }
 #utsnitt {
-	background-image: url("../bilder/operatakutsnitt.png");
+	background-image: url("../bilder/opera/operatakutsnitt.png");
 	bottom: 0px;
 	left: 200px;
 	width: 350px;
