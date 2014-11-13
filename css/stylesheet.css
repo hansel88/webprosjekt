@@ -54,6 +54,7 @@ body {
 #infoknapp {
 	top:50px;
 	right: 150px;
+	margin-right: 30px;
 	background-image: url("../bilder/bookthumb.png");
 	text-align: center;
 	font-size: 65px;
