@@ -596,7 +596,6 @@
 		position: absolute;
 		text-align: center;
 		line-height: 15px;
-		cursor: pointer;
 		text-decoration: none;
 		-webkit-animation-name:bubble;
 		-webkit-animation-duration:5s;
@@ -632,7 +631,6 @@
 		position: absolute;
 		text-align: center;
 		line-height: 15px;
-		cursor: pointer;
 		text-decoration: none;
 		-webkit-animation-name:bubble2;
 		-webkit-animation-duration:5s;
@@ -668,7 +666,6 @@
 		position: absolute;
 		text-align: center;
 		line-height: 15px;
-		cursor: pointer;
 		text-decoration: none;
 		-webkit-animation-name:bubble3;
 		-webkit-animation-duration:5s;
@@ -703,7 +700,6 @@
 		position: absolute;
 		text-align: center;
 		line-height: 15px;
-		cursor: pointer;
 		text-decoration: none;
 		-webkit-animation-name:bubble4;
 		-webkit-animation-fill-mode: forwards;
