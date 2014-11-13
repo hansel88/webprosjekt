@@ -20,11 +20,36 @@
 		overflow: hidden;
 	}
 	#knapp{
-		height: 117px;
-		width: 120px;
-		left:742px;
-		bottom: 220px;
+		height: 100px;
+		width: 400px;
+		left: 312px;
+		bottom: 0px;
 		display: block;
-		cursor: pointer;
+		background-color: blue;
 		position: absolute;
+		text-decoration: none;
+		font-size: 45px;
+		text-align: center;
+		color: black;
+	}
+	#rulletekstwrap { 
+		height: 60px;
+		width: 800px;
+		background-image: url("../bilder/forsidebanner.png");
+		top: 50px;
+		right: 112px;
+		position: absolute;
+		text-align: center;
+		-webkit-animation-name: rulletekst;
+		-webkit-animation-duration: 4s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: linear;
+	}
+	@-webkit-keyframes rulletekst {
+		0% {
+			right: -800px;
+		}
+		100% {
+			right: 1200px;
+		}
 	}
