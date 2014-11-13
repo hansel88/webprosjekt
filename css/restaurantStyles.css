@@ -20,6 +20,33 @@
 	width: 300px;
 }
 
+#billyBobSjokkert {
+	left: 300px;
+	bottom: 0px;
+	height: 360px;
+	width: 300px;
+	opacity: 0;
+
+	-webkit-animation-name: visBillySjokkert;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 20s;
+	-webkit-animation-duration: 0.1s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#mouth{
+	left: 120px;
+	bottom: 160px;
+	height: 35px;
+	width: 60px;
+}
+
+
+#billyBobSjokkertImg{
+	height: 360px;
+	width: 300px;
+}
+
 #kelnerImg {
 	height: 300px;
 	width: 350px;
@@ -118,9 +145,18 @@
 
 	-webkit-animation-name: visStjerne;
 	-webkit-animation-timing-function: linear;
-	-webkit-animation-delay: 20s;
+	-webkit-animation-delay: 19.5s;
 	-webkit-animation-duration: 1.5s;
 	-webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes visBillySjokkert{
+	from {
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
 }
 
 @-webkit-keyframes visStjerne {
