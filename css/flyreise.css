@@ -273,7 +273,7 @@ body{
 
 }
 
-#billyWrap{
+#billyWrap1{
 	left:538px;
 	bottom:300px;
 	border-radius: 50%;
@@ -291,17 +291,7 @@ body{
 	height: 40px;
 	position: absolute;
 }
-	#knapp{
-		height: 50px;
-		width: 50px;
-		left:950px;
-		bottom: 20px;
-		text-align: center;
-		display: block;
-		cursor: pointer;
-		color: rgb(250,0,0);
-		position: absolute;
-	}
+
 	#flyplasswrap {
 		position: absolute;
 		background-image:url("../bilder/OSL.jpg");

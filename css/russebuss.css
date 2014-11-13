@@ -24,7 +24,7 @@
 		-webkit-animation-name:russeBussInni;
 		-webkit-animation-fill-mode: forwards;
 		-webkit-animation-duration:17s;
-		-webkit-animation-delay: 7s; 	
+		-webkit-animation-delay: 24s; 	
 	} 
 		@-webkit-keyframes russeBussInni{ 
 
@@ -52,7 +52,7 @@
 		-webkit-animation-name:bussStopp;
 		-webkit-animation-fill-mode: forwards;
 		-webkit-animation-duration:7s;
-		-webkit-animation-delay: 0s; 	
+		-webkit-animation-delay: 17s; 	
 	} 
 		@-webkit-keyframes bussStopp{ 
 
@@ -78,7 +78,7 @@
 		position: absolute;
 		overflow: hidden;
 		-webkit-animation-name:door;
-		-webkit-animation-delay: 10s; 
+		-webkit-animation-delay: 27s; 
 		-webkit-animation-duration: 15s;
 	}
 		@-webkit-keyframes door{ 
@@ -102,7 +102,7 @@
 		-webkit-animation-name:bakgrunn;
 		-webkit-animation-fill-mode: forwards;
 		-webkit-animation-duration:17s;
-		-webkit-animation-delay: 7s; 
+		-webkit-animation-delay: 24s; 
 	}
 		@-webkit-keyframes bakgrunn{ 
 
@@ -131,7 +131,7 @@
 		-webkit-animation-name:bussAv;
 		-webkit-animation-fill-mode: forwards;
 		-webkit-animation-duration:7s;
-		-webkit-animation-delay: 28s; 	
+		-webkit-animation-delay: 45s; 	
 	} 
 		@-webkit-keyframes bussAv{ 
 			0%{   
@@ -159,7 +159,7 @@
 		overflow: hidden;
 		-webkit-animation-name:tekstBoks;
 		-webkit-animation-duration:6s;
-		-webkit-animation-delay: 24s; 
+		-webkit-animation-delay: 41s; 
 	}
 			@-webkit-keyframes tekstBoks{ 
 			0%{   
@@ -194,7 +194,7 @@
 		overflow: hidden;
 		-webkit-animation-name:buss;
 		-webkit-animation-duration:7s;
-		-webkit-animation-delay: 0s;
+		-webkit-animation-delay: 17s;
 	}
 		@-webkit-keyframes buss{ 
 
@@ -220,7 +220,7 @@
 		-webkit-animation-name:bussFramme;
 		-webkit-animation-fill-mode: forwards;
 		-webkit-animation-duration:6s;
-		-webkit-animation-delay: 28s;
+		-webkit-animation-delay: 45s;
 	}
 		@-webkit-keyframes bussFramme{ 
 
@@ -247,7 +247,7 @@
 		-webkit-animation-name:billy_bob_buss_stopp;
 		-webkit-animation-fill-mode: forwards;
 		-webkit-animation-duration:7s;
-		-webkit-animation-delay: 0s; 	
+		-webkit-animation-delay: 17s; 	
 	} 
 		@-webkit-keyframes billy_bob_buss_stopp{ 
 
@@ -307,7 +307,7 @@
 		-webkit-animation-name:billy_bob_buss_av;
 		-webkit-animation-fill-mode: forwards;
 		-webkit-animation-duration:5s;
-		-webkit-animation-delay: 28s; 	
+		-webkit-animation-delay: 45s; 	
 	} 
 		@-webkit-keyframes billy_bob_buss_av{ 
 
@@ -358,7 +358,7 @@
 		-webkit-animation-name:billy_bob;
 		-webkit-animation-fill-mode: forwards;
 		-webkit-animation-duration:17s;
-		-webkit-animation-delay: 7s; 	
+		-webkit-animation-delay: 24s; 	
 	} 
 		@-webkit-keyframes billy_bob{ 
 
@@ -405,7 +405,7 @@
 		overflow: hidden;
 		-webkit-animation-name: waves;
 		-webkit-animation-duration:0.5s;
-		-webkit-animation-delay: 7s; 
+		-webkit-animation-delay: 24s; 
 		-webkit-animation-iteration-count: 34;		
 	} 
 		@-webkit-keyframes waves{ 
@@ -436,7 +436,7 @@
 		-webkit-animation-name: armer;
 		-webkit-animation-fill-mode: forwards;
 		-webkit-animation-duration:17s;
-		-webkit-animation-delay: 7s; 		
+		-webkit-animation-delay: 24s; 		
 	} 
 		@-webkit-keyframes armer{ 
 			0%{   
@@ -490,7 +490,7 @@
 		-webkit-animation-name: armer_bak;
 		-webkit-animation-fill-mode: forwards;
 		-webkit-animation-duration:17s;
-		-webkit-animation-delay: 7s; 		
+		-webkit-animation-delay: 24s; 		
 	} 
 		@-webkit-keyframes armer_bak{ 
 			0%{   
@@ -544,7 +544,7 @@
 		opacity: 0;
 		-webkit-animation-name: russ_staa;
 		-webkit-animation-duration:17s;
-		-webkit-animation-delay: 7s; 		
+		-webkit-animation-delay: 24s; 		
 	} 
 		@-webkit-keyframes russ_staa{ 
 			0%{   
@@ -574,7 +574,7 @@
 		opacity: 0;
 		-webkit-animation-name: russ_sitte;
 		-webkit-animation-duration:17s;
-		-webkit-animation-delay: 7s; 		
+		-webkit-animation-delay: 24s; 		
 	} 
 		@-webkit-keyframes russ_sitte{ 
 			0%{   
@@ -600,7 +600,7 @@
 		text-decoration: none;
 		-webkit-animation-name:bubble;
 		-webkit-animation-duration:5s;
-		-webkit-animation-delay: 12s; 	
+		-webkit-animation-delay: 29s; 	
 	} 
 		@-webkit-keyframes bubble{ 
 			0%{   
@@ -636,7 +636,7 @@
 		text-decoration: none;
 		-webkit-animation-name:bubble2;
 		-webkit-animation-duration:5s;
-		-webkit-animation-delay: 15s; 	
+		-webkit-animation-delay: 32s; 	
 	} 
 		@-webkit-keyframes bubble2{ 
 			0%{   
@@ -672,7 +672,7 @@
 		text-decoration: none;
 		-webkit-animation-name:bubble3;
 		-webkit-animation-duration:5s;
-		-webkit-animation-delay: 32s; 	
+		-webkit-animation-delay: 49s; 	
 	} 
 		@-webkit-keyframes bubble3{ 
 			0%{   
@@ -708,7 +708,7 @@
 		-webkit-animation-name:bubble4;
 		-webkit-animation-fill-mode: forwards;
 		-webkit-animation-duration:7s;
-		-webkit-animation-delay: 37s; 	
+		-webkit-animation-delay: 54s; 	
 	} 
 		@-webkit-keyframes bubble4{ 
 			0%{   
@@ -745,7 +745,7 @@
 	overflow: hidden;
 		-webkit-animation-name:spiss1;
 		-webkit-animation-duration:5s;
-		-webkit-animation-delay: 12s; 	
+		-webkit-animation-delay: 29s; 	
 	} 
 		@-webkit-keyframes spiss1{ 
 			0%{   
@@ -773,7 +773,7 @@
 	overflow: hidden;
 		-webkit-animation-name:spiss2;
 		-webkit-animation-duration:5s;
-		-webkit-animation-delay: 15s; 	
+		-webkit-animation-delay: 32s; 	
 	} 
 		@-webkit-keyframes spiss2{ 
 			0%{   
@@ -801,7 +801,7 @@
 	overflow: hidden;
 		-webkit-animation-name:spiss3;
 		-webkit-animation-duration:5s;
-		-webkit-animation-delay: 32s; 	
+		-webkit-animation-delay: 49s; 	
 	} 
 		@-webkit-keyframes spiss3{ 
 			0%{   
@@ -830,7 +830,7 @@
 		-webkit-animation-name:spiss4;
 		-webkit-animation-fill-mode: forwards;
 		-webkit-animation-duration:7s;
-		-webkit-animation-delay: 37s; 	
+		-webkit-animation-delay: 54s; 	
 	} 
 		@-webkit-keyframes spiss4{ 
 			0%{   
@@ -855,7 +855,7 @@
 		overflow: hidden;
 		-webkit-animation-name:munn1;
 		-webkit-animation-duration:9s;
-		-webkit-animation-delay: 16s; 	
+		-webkit-animation-delay: 33s; 	
 	} 
 		@-webkit-keyframes munn1{ 
 			0%{   
@@ -880,7 +880,7 @@
 		overflow: hidden;
 		-webkit-animation-name:oyne1;
 		-webkit-animation-duration:9s;
-		-webkit-animation-delay: 16s; 	
+		-webkit-animation-delay: 33s; 	
 	} 
 		@-webkit-keyframes oyne1{ 
 			0%{   
@@ -904,4 +904,24 @@
 		display: block;
 		cursor: pointer;
 		position: absolute;
+	}
+	#russebusswrap {
+		position: absolute;
+		height: 700px;
+		width: 1024px;
+		left: 2048px;
+		bottom: 0px;
+
+		-webkit-animation-name: russebusswrapinn;
+		-webkit-animation-delay: 17s;
+		-webkit animation-duration: 0.1s;
+		-webkit-animation-fill-mode: forwards;
+	}
+	@-webkit-keyframes russebusswrapinn {
+		from {
+			left: 2048px;
+		}
+		to {
+			left: 0px;
+		}
 	}
