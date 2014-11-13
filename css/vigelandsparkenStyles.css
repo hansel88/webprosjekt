@@ -29,7 +29,7 @@
   width:30px;
   height:30px;
   background:white;
-  -webkit-border-radius:30px;
+  	-webkit-border-radius:30px;
   	opacity: 0;
   	-webkit-animation-name: boble2;
 	-webkit-animation-timing-function: ease-in;
@@ -45,7 +45,7 @@
   height:15px;
   background:white;
   opacity: 0;
-  -webkit-border-radius:15px;
+  	-webkit-border-radius:15px;
   	-webkit-animation-name: boble1;
 	-webkit-animation-timing-function: ease-in;
 	-webkit-animation-delay: 2s;

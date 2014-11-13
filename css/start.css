@@ -26,7 +26,7 @@ h1{
 
 .eyes_open
 {
-	visibility: hidden;
+	opacity: 0;
 	-webkit-animation-name: eyes_blink1;
 	-webkit-animation-duration: 1.2s;
 	-webkit-animation-timing-function: linear;
@@ -36,7 +36,7 @@ h1{
 
 .eyes_crossed
 {
-	visibility: hidden;
+	opacity: 0;
 	-webkit-animation-name: eyes_blink2;
 	-webkit-animation-duration: 1.2s;
 	-webkit-animation-timing-function: linear;
@@ -46,10 +46,10 @@ h1{
 
 @-webkit-keyframes eyes_blink1{
 	75%{
-		visibility: visible;
+		opacity: 1;
 	}
 	80%{
-		visibility: hidden;
+		opacity: 0;
 	}
 
 	100%{
@@ -58,12 +58,12 @@ h1{
 
 @-webkit-keyframes eyes_blink2{
 	75%{
-		visibility: hidden;
+		opacity: 0;
 	}
 	80%{
 	}
 
 	100%{
-		visibility: visible;
+		opacity: 1;
 	}
 }
