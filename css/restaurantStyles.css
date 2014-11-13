@@ -114,7 +114,7 @@
 	height: 3px;
 	width: 3px;
 	left: 700px;
-	top: 230px;
+	top: 231px;
 
 	-webkit-animation-name: visStjerne;
 	-webkit-animation-timing-function: linear;
@@ -129,66 +129,98 @@
 		-webkit-transform: rotate(15deg);
 	 	height: 3px;
 		width: 3px;
+		top:231px;
 	}
 	10%{
 		opacity: 1;
 		-webkit-transform: rotate(45deg);
-	 	height: 5px;
-		width: 5px;
+	 	height: 7px;
+		width: 7px;
+		top:230px;
 	}
 	20%{
 		opacity: 1;
 		-webkit-transform: rotate(75deg);
-	 	height: 7px;
-		width: 7px;
+	 	height: 10px;
+		width: 10px;
+		top:229px;	
 	}
 	30%{
 		opacity: 1;
 		-webkit-transform: rotate(105deg);
-	 	height: 9px;
-		width: 9px;
+	 	height: 13px;
+		width: 13px;
+		top:228px;
+	}
+	35%{
+		opacity: 1;
+		-webkit-transform: rotate(205deg);
+	 	height: 13px;
+		width: 13px;
+		top:228px;
 	}
 	40%{
 		opacity: 1;
-		-webkit-transform: rotate(135deg);
-	 	height: 11px;
-		width: 11px;
+		-webkit-transform: rotate(275deg);
+	 	height: 13px;
+		width: 13px;
+		top:228px;
+	}
+	45%{
+		opacity: 1;
+		-webkit-transform: rotate(325deg);
+	 	height: 13px;
+		width: 13px;
+		top:228px;
+	}
+	55%{
+		opacity: 1;
+		-webkit-transform: rotate(20deg);
+	 	height: 13px;
+		width: 13px;
+		top:228px;
 	}
 	50%{
 		opacity: 1;
 		-webkit-transform: rotate(165deg);
 	 	height: 13px;
 		width: 13px;
+		top:228px;
 	}
 	60%{
 		opacity: 1;
 		-webkit-transform: rotate(195deg);
-	 	height: 9px;
-		width: 9px;
+	 	height: 13px;
+		width: 13px;
+		top:228px;
 	}
 	70%{
 		opacity: 1;
 		-webkit-transform: rotate(225deg);
-	 	height: 7px;
-		width: 7px;
+	 	height: 10px;
+		width: 10px;
+		top:229px;
 	}
 	80%{
 		opacity: 1;
 		-webkit-transform: rotate(255deg);
-	 	height: 5px;
-		width: 5px;
+	 	height: 7px;
+		width: 7px;
+		top:230px;
 	}
 	90%{
 		opacity: 1;
 		-webkit-transform: rotate(285deg);
 	 	height: 3px;
 		width: 3px;
+		top:231px;
 	}
 	100%{
 		opacity: 0;
 		-webkit-transform: rotate(315deg);
 	 	height: 3px;
 		width: 3px;
+		top:231px;
 	}
 }
 
