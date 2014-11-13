@@ -106,8 +106,8 @@
 	left: 1060px;
 	bottom: 0px;
 	height: 300px;
-	width: 250px;
-	background-color: black;
+	width: 130px;
+	background-image: url("../bilder/antichrist.png");
 
 	-webkit-animation-name: kjendisihavet;
 	-webkit-animation-fill-mode: forwards;
@@ -119,26 +119,51 @@
 	0% {
 		left: 1060px;
 		bottom: 0px;
+		-webkit-transform: rotate(10deg);
+	}
+	10% {
+		left: 950px;
+		bottom: 45px;
+		-webkit-transform: rotate(0deg);
+	}
+	20% {
+		left: 840px;
+		bottom: 90px;
+		-webkit-transform: rotate(10deg);
+	}
+	30% {
+		left: 730px;
+		bottom: 135px;
+		-webkit-transform: rotate(0deg);
+	}
+	40% {
+		left: 620px;
+		bottom: 180px;
+		-webkit-transform: rotate(10deg);
 	}
 	50% {
 		left: 550px;
 		bottom: 225px;
+		-webkit-transform: rotate(0deg);
 	}
 	60% {
 		left: 550px;
 		bottom: 225px;
+		-webkit-transform: rotate(10deg);
 	}
 	70% {
 		left: 350px;
 		bottom: 350px;
+		-webkit-transform: rotate(-45deg);
 	}
 	98% {
 		left: 200px;
-		bottom: -300px;
+		bottom: -400px;
+		-webkit-transform: rotate(-180deg);
 	}
 	99% {
 		left: 1060px;
-		bottom: -300px;
+		bottom: -400px;
 	}
 	100% {
 		left: 1060px;
@@ -148,9 +173,9 @@
 #fangirls {
 	left: 1060px;
 	bottom: 0px;
-	height: 300px;
-	width: 250px;
-	background-color: black;
+	height: 100px;
+	width: 150px;
+	background-image: url("../bilder/hellspawn.png");
 
 	-webkit-animation-name: kjendisihavet;
 	-webkit-animation-fill-mode: forwards;
