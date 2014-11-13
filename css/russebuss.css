@@ -1,0 +1,909 @@
+@charset "utf-8";
+	body{
+		background-color: rgb(0,0,0)
+	}
+	#animasjonswrap{
+		width: 1024px;
+		height: 700px;
+		background-color: rgb(240, 240, 240);
+		margin: auto;
+		position: relative;
+		overflow: hidden;
+	
+	}
+
+	.russeBussInni{
+		width: 1024px;
+		height: 700px;
+		left:-1024px;
+		bottom:0px;
+		margin: auto;
+		position: absolute;
+		margin: auto;
+		overflow: hidden;
+		-webkit-animation-name:russeBussInni;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-duration:17s;
+		-webkit-animation-delay: 7s; 	
+	} 
+		@-webkit-keyframes russeBussInni{ 
+
+			0%{   
+			left:0px;
+			bottom:0px;
+		}
+			99.99%{   
+			left:0px;
+			bottom:0px;
+		}
+			100%{  
+			left:-1024px;
+			bottom:0px; 
+		}	
+	}
+
+	.bussStopp{
+		width: 1024px;
+		height: 700px;
+		left: -1024px;
+		bottom:0px;
+		position: absolute;
+		overflow: hidden;
+		-webkit-animation-name:bussStopp;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-duration:7s;
+		-webkit-animation-delay: 0s; 	
+	} 
+		@-webkit-keyframes bussStopp{ 
+
+ 
+			0%{   
+			left:0px;
+			bottom:0px;
+		}
+			99.99%{   
+			left:0px;
+			bottom:0px;
+		}
+			100%{  
+			left:-1024px;
+			bottom:0px; 
+		}
+	}
+	.door{
+		height: 700px;
+		width: 1024px;
+		left: -500px;
+		bottom: 0px;
+		position: absolute;
+		-webkit-animation-name:door;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-duration: 13.3s;
+		-webkit-animation-delay: 11s; 
+	}
+		@-webkit-keyframes door{ 
+
+ 
+			0%{   
+			left:0px;
+			bottom:0px;
+		}
+			99.99%{   
+			left:0px;
+			bottom:0px;
+		}
+			100%{  
+			left:-500px;
+			bottom:0px; 
+		}
+	}
+	.bakgrunn{
+		height: 700px;
+		width: 1024px;
+		left: -1024px;
+		overflow: hidden;
+		position: absolute;
+		-webkit-animation-name:bakgrunn;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-duration:17s;
+		-webkit-animation-delay: 7s; 
+	}
+		@-webkit-keyframes bakgrunn{ 
+
+ 
+			0%{   
+			left:0px;
+			bottom:0px;
+		}
+			99.99%{   
+			left:0px;
+			bottom:0px;
+		}
+			100%{  
+			left:-1024px;
+			bottom:0px; 
+		}
+	}
+	.bussStopp2{
+		width: 1024px;
+		height: 700px;
+		left: -1024px;
+		margin: auto;
+		position: absolute;
+		margin: auto;
+		overflow: hidden;
+		-webkit-animation-name:bussAv;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-duration:7s;
+		-webkit-animation-delay: 28s; 	
+	} 
+		@-webkit-keyframes bussAv{ 
+			0%{   
+			left:0px;
+			bottom:0px;
+		}	
+			99.99%{   
+			left:0px;
+			bottom:0px;
+		}
+			100%{  
+			left:0px;
+			bottom:0px; 
+		}
+	}
+	#tekstBoks{
+		height: 700px;
+		width: 1024px;
+		left: -1024px;
+		position: absolute;
+		background-color: rgb(0,0,0);
+		color: rgb(240,240,240);
+		text-decoration: none;
+		text-align: center;
+		overflow: hidden;
+		-webkit-animation-name:tekstBoks;
+		-webkit-animation-duration:6s;
+		-webkit-animation-delay: 22s; 
+	}
+			@-webkit-keyframes tekstBoks{ 
+			0%{   
+			left:0px;
+			bottom:0px;
+		}
+			99.99%{   
+			left:0px;
+			bottom:0px;
+		}
+			100%{  
+			left:-1024px;
+			bottom:0px; 
+		}
+	}
+
+	#billyWrap{
+		height: 500px;
+		width: 984px;
+		bottom: 0px;
+		left: 50px;
+		overflow: hidden;
+		margin: auto;
+		position: absolute;
+	}
+	.buss{
+		height: 700px;
+		width: 1024px;
+		left: -1024px;
+		bottom: 0px;
+		position: absolute;
+		overflow: hidden;
+		-webkit-animation-name:buss;
+		-webkit-animation-duration:7s;
+		-webkit-animation-delay: 0s;
+	}
+		@-webkit-keyframes buss{ 
+
+			0%{   
+			left:0px;
+			bottom:0px;
+		}
+			99.99%{   
+			left:0px;
+			bottom:0px;
+		}
+			100%{  
+			left:-1024px;
+			bottom:0px; 
+		}
+	}
+	.bussFramme{
+		height: 700px;
+		width: 1024px;
+		left:-1024px;
+		position: absolute;
+		overflow: hidden;
+		-webkit-animation-name:bussFramme;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-duration:6s;
+		-webkit-animation-delay: 28s;
+	}
+		@-webkit-keyframes bussFramme{ 
+
+ 			0%{   
+			bottom: 0px;
+			left: 0px;
+		}
+			100%{   
+			bottom: -1100px;
+			left: -2024px;
+			height: 2400px;
+			width: 3024px;
+
+		}
+	}
+	
+	.billy_buss_stopp{
+		width: 200px;
+		height: 200px;
+		left:-300px;
+		bottom:0px;
+		position: absolute;
+		overflow: hidden;
+		-webkit-animation-name:billy_bob_buss_stopp;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-duration:7s;
+		-webkit-animation-delay: 0s; 	
+	} 
+		@-webkit-keyframes billy_bob_buss_stopp{ 
+
+ 
+			0%{   
+			bottom: 0px;
+			left: 300px;
+		}
+			10%{   
+			-webkit-transform: rotate(10deg);		
+		}
+			20%{   
+			-webkit-transform: rotate(-10deg);		
+		}
+			30%{   
+			-webkit-transform: rotate(10deg);		
+		}
+			40%{   
+			-webkit-transform: rotate(-10deg);		
+		}
+			50%{   
+			-webkit-transform: rotate(10deg);		
+		}
+			60%{   
+			-webkit-transform: rotate(-10deg);		
+		}
+			70%{   
+			-webkit-transform: rotate(10deg);		
+		}
+			80%{   
+			-webkit-transform: rotate(-10deg);		
+		}
+			90%{   
+			-webkit-transform: rotate(-10deg);		
+		}
+			99.99%{   
+			bottom: 190px;
+			left: 450px;
+			height:80px; 
+			width:80px;
+		}
+			100%{   
+			bottom: 190px;
+			left: -450px;
+			height:80px; 
+			width:80px;
+	
+		}
+	}
+	.billy_buss_stopp2{
+		width: 300px;
+		height: 300px;
+		left:-300px;
+		bottom:0px;
+		position: absolute;
+		overflow: hidden;
+		-webkit-animation-name:billy_bob_buss_av;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-duration:5s;
+		-webkit-animation-delay: 28s; 	
+	} 
+		@-webkit-keyframes billy_bob_buss_av{ 
+
+ 
+			0%{   
+			bottom: 200px;
+			left: 450px;
+			height:80px; 
+			width:80px;
+			-webkit-transform: rotate(-10deg);	
+		}
+			10%{   
+			-webkit-transform: rotate(10deg);		
+		}
+			20%{   
+			-webkit-transform: rotate(-10deg);		
+		}
+			30%{   
+			-webkit-transform: rotate(10deg);		
+		}
+			40%{   
+			-webkit-transform: rotate(-10deg);		
+		}
+			50%{   
+			-webkit-transform: rotate(10deg);		
+		}
+			60%{   
+			-webkit-transform: rotate(-10deg);		
+		}
+			70%{   
+			-webkit-transform: rotate(0deg);		
+		}
+			100%{   
+			bottom: 0px;
+			left: 300px;
+			height:200px; 
+			width:200px;
+			-webkit-transform: rotate(0deg);
+		}
+	}
+	#billy_bob_paa_bussen{
+		width: 300px;
+		height: 300px;
+		left:-800px;
+		bottom:110px;
+		position: absolute;
+		overflow: hidden;
+		-webkit-animation-name:billy_bob;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-duration:17s;
+		-webkit-animation-delay: 7s; 	
+	} 
+		@-webkit-keyframes billy_bob{ 
+
+ 
+			0%{   
+			bottom: 110px;
+			left:-300px;
+	
+			-webkit-transform: rotate(-10deg);		
+		}
+			5%{   
+
+			-webkit-transform: rotate(10deg);		
+		}
+			10%{   
+			-webkit-transform: rotate(-10deg);		
+		}
+			15%{   
+			-webkit-transform: rotate(10deg);		
+		}
+			20%{   
+			bottom: 20px;
+			left: 70px;	
+			-webkit-transform: rotate(0deg);	
+		}
+			99.99%{   
+			-webkit-transform: rotate(0deg);	
+			bottom: 20px;
+			left: 70px;
+
+		}
+			100%{   
+			bottom: 20px;
+			left: -300px;
+			-webkit-transform: rotate(0deg);		
+		}
+	}
+	.lyd{
+		height: 300px;
+		width: 300px;
+		left:-800px;
+		bottom: 30px;
+		position: absolute;
+		overflow: hidden;
+		-webkit-animation-name: waves;
+		-webkit-animation-duration:0.5s;
+		-webkit-animation-delay: 7s; 
+		-webkit-animation-iteration-count: 34;		
+	} 
+		@-webkit-keyframes waves{ 
+			0%{   
+		left:360px;
+		bottom: 300px;		
+		}
+			49.99%{   
+		left:360px;
+		bottom: 300px;
+		}
+			50%{   
+		left:-360px;
+		bottom: 300px;	
+		}
+			100%{   
+		left:-360px;
+		bottom: 300px;	
+		}
+	}
+	.armer{
+		height: 500px;
+		width: 500px;
+		left:-300px;
+		bottom: 240px;
+		position: absolute;
+		overflow: hidden;
+		-webkit-animation-name: armer;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-duration:17s;
+		-webkit-animation-delay: 7s; 		
+	} 
+		@-webkit-keyframes armer{ 
+			0%{   
+			bottom: 240px;
+			left: 40px;
+		}
+			10%{   
+			-webkit-transform: rotate(4deg);		
+		}
+			20%{   
+			-webkit-transform: rotate(-4deg);		
+		}
+			30%{   
+			-webkit-transform: rotate(4deg);		
+		}
+			40%{   
+			-webkit-transform: rotate(-4deg);		
+		}
+			50%{   
+			-webkit-transform: rotate(4deg);		
+		}
+			60%{   
+			-webkit-transform: rotate(-4deg);		
+		}
+			70%{   
+			-webkit-transform: rotate(4deg);		
+		}
+			80%{   
+			-webkit-transform: rotate(-4deg);		
+		}
+			90%{   
+			-webkit-transform: rotate(4deg);		
+		}
+			99.99%{   
+			bottom: 240px;
+			left: 40px;
+			-webkit-transform: rotate(0deg);	
+		}
+			100%{   
+			bottom: 190px;
+			left: -750px;	
+		}
+	}
+	.armer2{
+		height: 450px;
+		width: 450px;
+		left:-390px;
+		bottom: 65px;
+		position: absolute; 
+		overflow: hidden;
+		-webkit-animation-name: armer_bak;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-duration:17s;
+		-webkit-animation-delay: 7s; 		
+	} 
+		@-webkit-keyframes armer_bak{ 
+			0%{   
+			bottom: 65px;
+			left: 387px;
+		}
+			10%{   
+			-webkit-transform: rotate(4deg);		
+		}
+			20%{   
+			-webkit-transform: rotate(-4deg);		
+		}
+			30%{   
+			-webkit-transform: rotate(4deg);		
+		}
+			40%{   
+			-webkit-transform: rotate(-4deg);		
+		}
+			50%{   
+			-webkit-transform: rotate(4deg);		
+		}
+			60%{   
+			-webkit-transform: rotate(-4deg);		
+		}
+			70%{   
+			-webkit-transform: rotate(4deg);		
+		}
+			80%{   
+			-webkit-transform: rotate(-4deg);		
+		}
+			90%{   
+			-webkit-transform: rotate(4deg);		
+		}
+			99.99%{   
+			bottom: 65px;
+			left: 387px;
+			-webkit-transform: rotate(0deg);	
+		}
+			100%{   
+			bottom: 190px;
+			left: -750px;
+		}
+		
+	}
+	.russ{
+		height: 700px;
+		width: 500px;
+		left:370px;
+		bottom: -70px;
+		position: absolute;
+		opacity: 0;
+		-webkit-animation-name: russ_staa;
+		-webkit-animation-duration:17s;
+		-webkit-animation-delay: 7s; 		
+	} 
+		@-webkit-keyframes russ_staa{ 
+			0%{   
+			opacity: 1;	
+		}
+			99.99%{   
+			opacity: 1;		
+		}
+			100%{   
+			opacity: 0;	
+		}
+	}
+	#russWrap{
+		height: 200px;
+		width: 200px;
+		bottom: 445px;
+		left: 150px;
+		overflow: hidden;
+		margin: auto;
+		position: absolute;		
+	}
+	#Russ_sitte{
+		height: 600px;
+		width: 600px;
+		position: absolute;
+		left: -150px;
+		bottom: -250px;
+		opacity: 0;
+		-webkit-animation-name: russ_sitte;
+		-webkit-animation-duration:17s;
+		-webkit-animation-delay: 7.2s; 		
+	} 
+		@-webkit-keyframes russ_sitte{ 
+			0%{   
+			opacity: 1;		
+		}
+			99.99%{   
+			opacity: 1;		
+		}
+			100%{   
+			opacity: 0;	
+		}
+	}
+		#bubbleWrap{
+		left:-300px;
+		bottom:380px;
+		position: absolute;
+		text-align: center;
+		line-height: 15px;
+		cursor: pointer;
+		text-decoration: none;
+		-webkit-animation-name:bubble;
+		-webkit-animation-duration:5s;
+		-webkit-animation-delay: 12s; 	
+	} 
+		@-webkit-keyframes bubble{ 
+			0%{   
+		left:300px;
+		bottom: 380px;		
+		}
+			99.99%{   
+		left:300px;
+		bottom: 380px;
+		}
+		100%{   
+		left:-300px;
+		bottom: 380px;	
+		}
+	}
+	.bubble
+	{
+		position: absolute;
+		width: 130px;
+		height: 70px;
+		padding: 0px;
+		background-color: rgb(240,240,240);
+		border-radius: 10px;
+	}
+
+		#bubble2Wrap{
+		left:-300px;
+		bottom:520px;
+		position: absolute;
+		text-align: center;
+		line-height: 15px;
+		cursor: pointer;
+		text-decoration: none;
+		-webkit-animation-name:bubble2;
+		-webkit-animation-duration:5s;
+		-webkit-animation-delay: 15s; 	
+	} 
+		@-webkit-keyframes bubble2{ 
+			0%{   
+		left:600px;
+		bottom: 520px;		
+		}
+			99.99%{   
+		left:600px;
+		bottom: 520px;
+		}
+		100%{   
+		left:-300px;
+		bottom: 380px;	
+		}
+	}
+	.bubble2
+	{
+		position: absolute;
+		width: 130px;
+		height: 70px;
+		padding: 0px;
+		background-color: rgb(240,240,240);
+		border-radius: 10px;
+	}
+
+		#bubble3Wrap{
+		left:-300px;
+		bottom:350px;
+		position: absolute;
+		text-align: center;
+		line-height: 15px;
+		cursor: pointer;
+		text-decoration: none;
+		-webkit-animation-name:bubble3;
+		-webkit-animation-duration:5s;
+		-webkit-animation-delay: 32s; 	
+	} 
+		@-webkit-keyframes bubble3{ 
+			0%{   
+		left:400px;
+		bottom: 300px;		
+		}
+			99.99%{   
+		left:400px;
+		bottom: 300px;
+		}
+		100%{   
+		left:-300px;
+		bottom: 380px;	
+		}
+	}
+	.bubble3
+	{
+		position: absolute;
+		width: 170px;
+		height: 70px;
+		padding: 0px;
+		background-color: rgb(240,240,240);
+		border-radius: 10px;
+	}
+		#bubble4Wrap{
+		left:-300px;
+		bottom:350px;
+		position: absolute;
+		text-align: center;
+		line-height: 15px;
+		cursor: pointer;
+		text-decoration: none;
+		-webkit-animation-name:bubble4;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-duration:7s;
+		-webkit-animation-delay: 37s; 	
+	} 
+		@-webkit-keyframes bubble4{ 
+			0%{   
+		left:400px;
+		bottom: 300px;		
+		}
+			99.99%{   
+		left:400px;
+		bottom: 300px;
+		}
+		100%{   
+		left:400px;
+		bottom: 300px;	
+		}
+	}
+	.bubble4
+	{
+		position: absolute;
+		width: 170px;
+		height: 70px;
+		padding: 0px;
+		background-color: rgb(240,240,240);
+		border-radius: 10px;
+	}
+	#spiss1 {
+	position: absolute;
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid rgb(240,240,240);
+	left: -430px;
+	bottom:410px;
+	overflow: hidden;
+		-webkit-animation-name:spiss1;
+		-webkit-animation-duration:5s;
+		-webkit-animation-delay: 12s; 	
+	} 
+		@-webkit-keyframes spiss1{ 
+			0%{   
+		left:330px;
+		bottom: 290px;		
+		}
+			99.99%{   
+		left:330px;
+		bottom: 290px;
+		}
+		100%{   
+		left:-300px;
+		bottom: 380px;	
+		}
+	}
+	#spiss2 {
+	position: absolute;
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid rgb(240,240,240);
+	left: -430px;
+	bottom:410px;
+	overflow: hidden;
+		-webkit-animation-name:spiss2;
+		-webkit-animation-duration:5s;
+		-webkit-animation-delay: 15s; 	
+	} 
+		@-webkit-keyframes spiss2{ 
+			0%{   
+		left:630px;
+		bottom: 430px;		
+		}
+			99.99%{   
+		left:630px;
+		bottom: 430px;
+		}
+		100%{   
+		left:-300px;
+		bottom: 380px;	
+		}
+	}
+	#spiss3 {
+	position: absolute;
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid rgb(240,240,240);
+	left: -430px;
+	bottom:210px;
+	overflow: hidden;
+		-webkit-animation-name:spiss3;
+		-webkit-animation-duration:5s;
+		-webkit-animation-delay: 32s; 	
+	} 
+		@-webkit-keyframes spiss3{ 
+			0%{   
+		left:430px;
+		bottom: 210px;		
+		}
+			99.99%{   
+		left:430px;
+		bottom: 210px;
+		}
+		100%{   
+		left:-300px;
+		bottom: 380px;	
+		}
+	}
+	#spiss4 {
+	position: absolute;
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid rgb(240,240,240);
+	left: -430px;
+	bottom:210px;
+	overflow: hidden;
+		-webkit-animation-name:spiss4;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-animation-duration:7s;
+		-webkit-animation-delay: 37s; 	
+	} 
+		@-webkit-keyframes spiss4{ 
+			0%{   
+		left:430px;
+		bottom: 210px;		
+		}
+			99.99%{   
+		left:430px;
+		bottom: 210px;
+		}
+		100%{   
+		left:430px;
+		bottom: 210px;	
+		}
+	}
+	.munn1{
+		width: 70px;
+		height: 40px;
+		left:-380px;
+		bottom: 150px;
+		position: absolute;
+		overflow: hidden;
+		-webkit-animation-name:munn1;
+		-webkit-animation-duration:8s;
+		-webkit-animation-delay: 16.3s; 	
+	} 
+		@-webkit-keyframes munn1{ 
+			0%{   
+		left:230px;
+		bottom: 155px;		
+		}
+			99.99%{   
+		left:230px;
+		bottom: 155px;
+		}
+		100%{   
+		left:-300px;
+		bottom: 380px;	
+		}
+	}
+	.oyne1{
+		width: 120px;
+		height: 50px;
+		left:-305px;
+		bottom: 190px;
+		position: absolute;
+		overflow: hidden;
+		-webkit-animation-name:oyne1;
+		-webkit-animation-duration:8s;
+		-webkit-animation-delay: 16.3s; 	
+	} 
+		@-webkit-keyframes oyne1{ 
+			0%{   
+		left:205px;
+		bottom: 190px;		
+		}
+			99.99%{   
+		left:205px;
+		bottom: 190px;
+		}
+		100%{   
+		left:-300px;
+		bottom: 380px;	
+		}
+	}
+	#knapp{
+		height: 70px;
+		width: 170px;
+		left:400px;
+		bottom: 225px;
+		display: block;
+		cursor: pointer;
+		position: absolute;
+	}
