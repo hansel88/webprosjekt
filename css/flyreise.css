@@ -19,7 +19,7 @@ body{
 	overflow: hidden;
 		-webkit-animation-name: himmel;
 		-webkit-animation-fill-mode: forwards;
-		-webkit-animation-duration:20s;
+		-webkit-animation-duration:10s;
 		-webkit-animation-delay: 0s; 
 }
 		@-webkit-keyframes himmel{ 
@@ -47,7 +47,7 @@ body{
 		-webkit-animation-name: skyTopp;
 		-webkit-animation-duration:4s;
 		-webkit-animation-delay: 2s; 
-		-webkit-animation-iteration-count: 3;	
+		-webkit-animation-iteration-count: 2;	
 	} 
 		@-webkit-keyframes skyTopp{ 
 
@@ -70,7 +70,7 @@ body{
 	position: absolute;
 	overflow: hidden;
 		-webkit-animation-name: skyMid;
-		-webkit-animation-duration:20s;
+		-webkit-animation-duration:10s;
 		-webkit-animation-delay: 0s; 
 	
 	} 
@@ -95,9 +95,9 @@ body{
 	position: absolute;
 	overflow: hidden;
 		-webkit-animation-name: skyBunn;
-		-webkit-animation-duration:6s;
-		-webkit-animation-delay: 6s; 
-		-webkit-animation-iteration-count: 3;	
+		-webkit-animation-duration:5s;
+		-webkit-animation-delay: 0s; 
+		-webkit-animation-iteration-count: 2;	
 	} 
 		@-webkit-keyframes skyBunn{ 
 
@@ -120,8 +120,8 @@ body{
 	position: absolute;
 	overflow: hidden;
 		-webkit-animation-name: skyStille;
-		-webkit-animation-duration:10s;
-		-webkit-animation-delay: 5s; 	
+		-webkit-animation-duration:4s;
+		-webkit-animation-delay: 1s; 	
 	} 
 		@-webkit-keyframes skyStille{ 
 
@@ -144,8 +144,8 @@ body{
 	position: absolute;
 		-webkit-animation-name: star_left;
 		-webkit-animation-fill-mode: forwards;
-		-webkit-animation-duration:10s;
-		-webkit-animation-delay: 11s; 	
+		-webkit-animation-duration:3s;
+		-webkit-animation-delay: 7s; 	
 	} 
 		@-webkit-keyframes star_left{ 
 
@@ -176,8 +176,8 @@ body{
 	position: absolute;
 		-webkit-animation-name: star_mid;
 		-webkit-animation-fill-mode: forwards;
-		-webkit-animation-duration:10s;
-		-webkit-animation-delay: 11s; 	
+		-webkit-animation-duration:3s;
+		-webkit-animation-delay: 7s; 	
 	} 
 		@-webkit-keyframes star_mid{ 
 
@@ -208,8 +208,8 @@ body{
 	position: absolute;
 		-webkit-animation-name: star_mide;
 		-webkit-animation-fill-mode: forwards;
-		-webkit-animation-duration:10s;
-		-webkit-animation-delay: 11s; 	
+		-webkit-animation-duration:3s;
+		-webkit-animation-delay: 7s; 	
 	} 
 		@-webkit-keyframes star_mide{ 
 
@@ -240,8 +240,8 @@ body{
 	position: absolute;
 		-webkit-animation-name: star_right;
 		-webkit-animation-fill-mode: forwards;
-		-webkit-animation-duration:10s;
-		-webkit-animation-delay: 11s; 	
+		-webkit-animation-duration:3s;
+		-webkit-animation-delay: 7s; 	
 	} 
 		@-webkit-keyframes star_right{ 
 
@@ -301,4 +301,50 @@ body{
 		cursor: pointer;
 		color: rgb(250,0,0);
 		position: absolute;
+	}
+	#flyplasswrap {
+		position: absolute;
+		background-image:url("../bilder/OSL.jpg");
+		width: 1024px;
+		height: 700px;
+		bottom: 0px;
+		left: 2048px;
+
+		-webkit-animation-name: flyplassinn;
+		-webkit-animation-delay: 10s;
+		-webkit-animation-duration: 2s;
+		-webkit-animation-fill-mode: forwards;
+	}
+	@-webkit-keyframes flyplassinn {
+		from { 
+			left: 2048px;
+			}
+		to {
+			left: 0px;
+		}
+	}
+	#flylander {
+		bottom: -100px;
+		left: -400px;
+		height: 400px;
+		width: 500px;
+		opacity: 0;
+
+		-webkit-animation-name: flylander;
+		-webkit-animation-delay: 12s;
+		-webkit-animation-duration: 5s;
+		-webkit-animation-fill-mode: forwards;
+	}
+	@-webkit-keyframes flylander {
+		0% {
+			opacity: 0;
+		}
+		1% {
+			left: -400px;
+			opacity: 1;
+		}
+		100% {
+			left: 1324px;
+			opacity: 1;
+		}
 	}
