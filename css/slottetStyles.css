@@ -63,6 +63,44 @@
 	-webkit-animation-iteration-count: infinite;
 }
 
+#eliOgBil{
+	right: -450px;
+	bottom: 200px;
+	width: 300px;
+	height: 250px;
+
+	-webkit-animation-name: bilKjører;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 13s;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#bil{
+	width: 350px;
+	height: 300px;
+}
+
+#eli{
+	width: 80px;
+	height: 100px;
+	bottom: 140px;
+	right: -10px;
+	-webkit-transform: rotate(20deg);
+}
+
+@-webkit-keyframes bilKjører{
+	from{
+		right: -350px;
+		bottom: 100px;
+	}
+	to{
+		right: 1500px;
+		bottom: -550px;
+	}
+}
+
+
 @-webkit-keyframes vink{
 	0%{
 		 -webkit-transform: rotate(15deg);

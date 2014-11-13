@@ -21,7 +21,8 @@ body {
 #kartknapp {
 	top:50px;
 	right: 50px;
-	background-image: url("../bilder/scrollthumb.png");
+	/*background-image: url("../bilder/scrollthumb.png");*/
+	background-image: url("../bilder/kart/thumbnail.png");
 }
 
 /* kan bytte til andre effekter, evt ingen effekter senere - bare et forslag*/
@@ -118,7 +119,8 @@ body {
 	width: 0px;
 	bottom: 250px;
 	left: -700px;
-	background-image: url("../bilder/scrolldel2v2.png");
+	/*background-image: url("../bilder/scrolldel2v2.png");*/
+	background-image: url("../bilder/kart/scroll del2.png");
 }
 #kart1 * {
 	position: absolute;
@@ -132,14 +134,18 @@ body {
 	width: 150px;
 }
 #rullV {
-	background-image: url("../bilder/scrolldel1v2.png");
+	/*background-image: url("../bilder/scrolldel1v2.png");*/
+	background-image: url("../bilder/kart/scroll del1.png");
 	width: 150px;
-	left: -150px;
+	left: -149px;
+	top: -8px;
 }
 #rullH {
-	background-image: url("../bilder/scrolldel3v2.png");
-	width: 155px;
+	/*background-image: url("../bilder/scrolldel3v2.png");*/
+	background-image: url("../bilder/kart/scroll del3.png");
+	width: 150px;
 	right: -150px;
+	top: -15px;
 }
 #kart1:target {
 	-webkit-animation-name: kartUt;
