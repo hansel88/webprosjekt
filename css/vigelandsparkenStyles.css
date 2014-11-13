@@ -1,8 +1,62 @@
 #vinduWrap {
 	background-image: url("../bilder/utenfotogbabyunder.png");
 }
-
-
+.tenkeboble {
+  position:absolute;
+  width:270px;
+  padding:80px 40px;
+  text-align:center;
+  color:white;
+  left: 200px;
+  top: 50px;
+  background:white;
+  	-webkit-border-top-left-radius:220px 120px;
+  	-webkit-border-top-right-radius:220px 120px;
+  	-webkit-border-bottom-right-radius:220px 120px;
+  	-webkit-border-bottom-left-radius:220px 120px;
+  	-webkit-border-radius:220px / 120px;
+  	-webkit-animation-name: boble;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-delay: 16s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-fill-mode: forwards;
+	opacity: 0;
+}
+.underboble1 {
+  position:absolute;
+  bottom:-100px;
+  left:145px;
+  width:30px;
+  height:30px;
+  background:white;
+  -webkit-border-radius:30px;
+  	opacity: 0;
+  	-webkit-animation-name: boble2;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-delay: 14s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-fill-mode: forwards;
+}
+.underboble2 {
+  position:absolute;
+  bottom:-170px;
+  left:153px;
+  width:15px;
+  height:15px;
+  background:white;
+  opacity: 0;
+  -webkit-border-radius:15px;
+  	-webkit-animation-name: boble1;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-delay: 2s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-fill-mode: forwards;
+}
+.tekst{
+	top:10px;
+	left:10px;
+	color:black;
+}
 #billyBobimg {
 	height: 300px;
 	width: 250px;
@@ -178,5 +232,29 @@
 	}
 	100%{
 		left: 250px;
+	}
+}
+@-webkit-keyframes boble1 {
+	99%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@-webkit-keyframes boble2 {
+	99%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@-webkit-keyframes boble {
+	99%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
 	}
 }
