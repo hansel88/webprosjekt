@@ -1,3 +1,217 @@
 #vinduWrap {
-	background-image: url("../bilder/opera.jpg"); /* bytt bilde senere */
+	background-image: url("../bilder/restaurant/restaurant.jpg"); /* bytt bilde senere */
+}
+
+#billyBobimg {
+	height: 360px;
+	width: 300px;
+
+	-webkit-animation-name: billyEserUt;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 11s;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#billybob {
+	left: 270px;
+	bottom: -10px;
+	height: 360px;
+	width: 300px;
+}
+
+#kelnerImg {
+	height: 300px;
+	width: 350px;
+}
+
+
+#kelner {
+	left: 605px;
+	bottom: 295px;
+	height: 270px;
+	width: 360px;
+}
+
+.kelnerBubble{
+	left: 480px;
+	top: 70px;
+
+	-webkit-animation-name: visBoble;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 16s;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.billyBubble {
+	left: 370px;
+	top: 300px;
+
+	-webkit-animation-name: visBoble;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 13s;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.bubble p{
+	font-family: Comic Sans MS;
+	margin-left: 3px;
+	top: -10px;
+	left: 20px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.bubble 
+{
+	opacity: 0;
+	position: absolute;
+	height: 70px;
+	width: 260px;
+	padding: 6px;
+	background: #FFFFFF;
+	-webkit-border-radius: 56px;
+}
+
+.kelnerBubble:after 
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 21px 8px 0;
+	border-color: #FFFFFF transparent;
+	display: block;
+	width: 0;
+	bottom: -21px;
+	left: 186px;
+}
+
+.billyBubble:after 
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 21px 8px 0;
+	border-color: #FFFFFF transparent;
+	display: block;
+	width: 0;
+	bottom: -21px;
+	left: 86px;
+}
+
+.bubble:hover{
+	cursor: default;
+}
+
+#stjerne {
+	opacity: 0;
+	height: 3px;
+	width: 3px;
+	left: 700px;
+	top: 230px;
+
+	-webkit-animation-name: visStjerne;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 18.5s;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes visStjerne {
+	0%{
+		opacity: 1;
+		-webkit-transform: rotate(15deg);
+	 	height: 3px;
+		width: 3px;
+	}
+	10%{
+		opacity: 1;
+		-webkit-transform: rotate(45deg);
+	 	height: 5px;
+		width: 5px;
+	}
+	20%{
+		opacity: 1;
+		-webkit-transform: rotate(75deg);
+	 	height: 7px;
+		width: 7px;
+	}
+	30%{
+		opacity: 1;
+		-webkit-transform: rotate(105deg);
+	 	height: 9px;
+		width: 9px;
+	}
+	40%{
+		opacity: 1;
+		-webkit-transform: rotate(135deg);
+	 	height: 11px;
+		width: 11px;
+	}
+	50%{
+		opacity: 1;
+		-webkit-transform: rotate(165deg);
+	 	height: 13px;
+		width: 13px;
+	}
+	60%{
+		opacity: 1;
+		-webkit-transform: rotate(195deg);
+	 	height: 9px;
+		width: 9px;
+	}
+	70%{
+		opacity: 1;
+		-webkit-transform: rotate(225deg);
+	 	height: 7px;
+		width: 7px;
+	}
+	80%{
+		opacity: 1;
+		-webkit-transform: rotate(255deg);
+	 	height: 5px;
+		width: 5px;
+	}
+	90%{
+		opacity: 1;
+		-webkit-transform: rotate(285deg);
+	 	height: 3px;
+		width: 3px;
+	}
+	100%{
+		opacity: 0;
+		-webkit-transform: rotate(315deg);
+	 	height: 3px;
+		width: 3px;
+	}
+}
+
+@-webkit-keyframes visBoble{
+	0%{
+		opacity: 0;
+	}
+	5%{
+		opacity: 1;
+	}
+	99% {
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes billyEserUt{
+	0%{
+		width: 300px;
+	}
+	100%{
+		width: 330px;
+	}
 }
