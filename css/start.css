@@ -45,7 +45,7 @@ h1{
 }
 
 @-webkit-keyframes eyes_blink1{
-	75%{
+	79%{
 		opacity: 1;
 	}
 	80%{
@@ -57,7 +57,7 @@ h1{
 }
 
 @-webkit-keyframes eyes_blink2{
-	75%{
+	79%{
 		opacity: 0;
 	}
 	80%{
