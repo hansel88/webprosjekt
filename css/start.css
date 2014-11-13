@@ -45,25 +45,44 @@ h1{
 }
 
 @-webkit-keyframes eyes_blink1{
-	79%{
+	0% {
 		opacity: 1;
 	}
-	80%{
+	65% {
+		opacity: 1;
+	}
+	66%{
 		opacity: 0;
+	}
+	79% {
+		opacity: 0;
+	}
+	80%{
+		opacity: 1;
 	}
 
 	100%{
+		opacity: 1;
 	}
 }
-
 @-webkit-keyframes eyes_blink2{
-	79%{
+	0% {
 		opacity: 0;
 	}
+	65% {
+		opacity: 0;
+	}
+	66%{
+		opacity: 1;
+	}
+	79% {
+		opacity: 1;
+	}
 	80%{
+		opacity: 0;
 	}
 
 	100%{
-		opacity: 1;
+		opacity: 0;
 	}
 }
