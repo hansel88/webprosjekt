@@ -35,9 +35,8 @@
 	bottom: 160px;
 }
 
-.eyes_open
-{
-	visibility: hidden;
+.eyes_open {
+	opacity: 1;
 	-webkit-animation-name: eyes_blink1;
 	-webkit-animation-duration: 1.2s;
 	-webkit-animation-timing-function: linear;
@@ -45,36 +44,53 @@
 	-webkit-animation-direction: alternate;
 }
 
-.eyes_crossed
-{
-	visibility: hidden;
+.eyes_crossed {
+	opacity: 0;
 	-webkit-animation-name: eyes_blink2;
 	-webkit-animation-duration: 1.2s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-direction: alternate; 
 }
-
 @-webkit-keyframes eyes_blink1{
-	75%{
-		visibility: visible;
+	0% {
+		opacity: 1;
+	}
+	65% {
+		opacity: 1;
+	}
+	66%{
+		opacity: 0;
+	}
+	79% {
+		opacity: 0;
 	}
 	80%{
-		visibility: hidden;
+		opacity: 1;
 	}
 
 	100%{
+		opacity: 1;
 	}
 }
-
 @-webkit-keyframes eyes_blink2{
-	75%{
-		visibility: hidden;
+	0% {
+		opacity: 0;
+	}
+	65% {
+		opacity: 0;
+	}
+	66%{
+		opacity: 1;
+	}
+	79% {
+		opacity: 1;
 	}
 	80%{
+		opacity: 0;
 	}
 
 	100%{
-		visibility: visible;
+		opacity: 0;
 	}
 }

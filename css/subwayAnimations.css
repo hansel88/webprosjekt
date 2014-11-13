@@ -91,7 +91,7 @@ body {
 
 .eyes_open
 {
-	visibility: hidden;
+	opacity: 0;
 	-webkit-animation-name: eyes_blink1;
 	-webkit-animation-duration: 1.2s;
 	-webkit-animation-timing-function: linear;
@@ -101,12 +101,55 @@ body {
 
 .eyes_crossed
 {
-	visibility: hidden;
+	opacity: 0;
 	-webkit-animation-name: eyes_blink2;
 	-webkit-animation-duration: 1.2s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-direction: alternate; 
+}
+
+@-webkit-keyframes eyes_blink1{
+	0% {
+		opacity: 1;
+	}
+	65% {
+		opacity: 1;
+	}
+	66%{
+		opacity: 0;
+	}
+	79% {
+		opacity: 0;
+	}
+	80%{
+		opacity: 1;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}
+@-webkit-keyframes eyes_blink2{
+	0% {
+		opacity: 0;
+	}
+	65% {
+		opacity: 0;
+	}
+	66%{
+		opacity: 1;
+	}
+	79% {
+		opacity: 1;
+	}
+	80%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 0;
+	}
 }
 
 @-webkit-keyframes billyWalksOut{
@@ -166,31 +209,6 @@ body {
 		-webkit-transform: rotate(10deg);
 	}
 }
-
-@-webkit-keyframes eyes_blink1{
-	75%{
-		visibility: visible;
-	}
-	80%{
-		visibility: hidden;
-	}
-
-	100%{
-	}
-}
-
-@-webkit-keyframes eyes_blink2{
-	75%{
-		visibility: hidden;
-	}
-	80%{
-	}
-
-	100%{
-		visibility: visible;
-	}
-}
-
 
 @-webkit-keyframes animatedBackground {
     0% { 
