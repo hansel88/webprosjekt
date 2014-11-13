@@ -1,0 +1,83 @@
+/*holmenkollen styles*/
+
+#vinduWrap {
+	background-image: url("../bilder/holmenkollen2.jpg");
+}
+
+#billyBobimg {
+	height: 300px;
+	width: 250px;
+}
+
+#billybob {
+	left: -250px;
+	bottom: 0px;
+	height: 300px;
+	width: 250px;
+
+	-webkit-animation-name: walkIn;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-delay: 11s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.billyBobEyes {
+	height: 60px;
+	width: 80px;
+	left: 85px;
+	bottom: 160px;
+}
+
+@-webkit-keyframes walkIn{
+	0%{
+		left: -250px;
+		 -webkit-transform: rotate(10deg);
+	}
+	10%{
+		left: -200px;
+		 -webkit-transform: rotate(0deg);
+	}
+	20%{
+		left: -150px;
+		 -webkit-transform: rotate(10deg);
+	}
+	30%{
+		left: -100px;
+		 -webkit-transform: rotate(0deg);
+	}
+	40%{
+		left: -50px;
+		 -webkit-transform: rotate(10deg);
+	}
+	50%{
+		left: 0px;
+		 -webkit-transform: rotate(0deg);
+	}
+	60%{
+		left: 50px;
+		 -webkit-transform: rotate(10deg);
+	}
+	70%{
+		left: 100px;
+		 -webkit-transform: rotate(0deg);
+	}
+	80%{
+		left: 150px;
+		 -webkit-transform: rotate(10deg);
+	}
+	90%{
+		left: 200px;
+		 -webkit-transform: rotate(0deg);
+	}
+	100%{
+		left: 250px;
+	}
+}
+#holmenkollentopp {
+	height: 300px;
+	width: 500px;
+	top: 0px;
+	right: 25px;
+	display: block;
+}
