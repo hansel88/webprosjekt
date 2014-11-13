@@ -75,10 +75,11 @@
 		width: 1024px;
 		left: -500px;
 		bottom: 0px;
+		margin: auto;
 		position: absolute;
+		overflow: hidden;
 		-webkit-animation-name:door;
-		-webkit-animation-fill-mode: forwards;
-		-webkit-animation-duration: 13.3s;
+		-webkit-animation-duration: 13s;
 		-webkit-animation-delay: 11s; 
 	}
 		@-webkit-keyframes door{ 
@@ -547,7 +548,7 @@
 		position: absolute;
 		opacity: 0;
 		-webkit-animation-name: russ_staa;
-		-webkit-animation-duration:17s;
+		-webkit-animation-duration:17.1s;
 		-webkit-animation-delay: 7s; 		
 	} 
 		@-webkit-keyframes russ_staa{ 
@@ -567,10 +568,9 @@
 		bottom: 445px;
 		left: 150px;
 		overflow: hidden;
-		margin: auto;
 		position: absolute;		
 	}
-	#Russ_sitte{
+	.Russ_sitte{
 		height: 600px;
 		width: 600px;
 		position: absolute;
@@ -578,11 +578,14 @@
 		bottom: -250px;
 		opacity: 0;
 		-webkit-animation-name: russ_sitte;
-		-webkit-animation-duration:17s;
-		-webkit-animation-delay: 7.2s; 		
+		-webkit-animation-duration:16.17s;
+		-webkit-animation-delay: 7.93s; 		
 	} 
 		@-webkit-keyframes russ_sitte{ 
 			0%{   
+			opacity: 0;		
+		}
+			0.01%{   
 			opacity: 1;		
 		}
 			99.99%{   
@@ -856,7 +859,7 @@
 		position: absolute;
 		overflow: hidden;
 		-webkit-animation-name:munn1;
-		-webkit-animation-duration:8s;
+		-webkit-animation-duration:7.7s;
 		-webkit-animation-delay: 16.3s; 	
 	} 
 		@-webkit-keyframes munn1{ 
@@ -881,7 +884,7 @@
 		position: absolute;
 		overflow: hidden;
 		-webkit-animation-name:oyne1;
-		-webkit-animation-duration:8s;
+		-webkit-animation-duration:7.7s;
 		-webkit-animation-delay: 16.3s; 	
 	} 
 		@-webkit-keyframes oyne1{ 
