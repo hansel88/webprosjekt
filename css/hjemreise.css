@@ -19,13 +19,13 @@ body{
 	overflow: hidden;
 		-webkit-animation-name: himmel;
 		-webkit-animation-fill-mode: forwards;
-		-webkit-animation-duration:20s;
-		-webkit-animation-delay: 0s; 
+		-webkit-animation-duration:10s;
+		-webkit-animation-delay: 7s; 
 }
 		@-webkit-keyframes himmel{ 
 
  
-			0%{   
+			0%{
 			background-color: rgb(153, 204, 255);
 		}
 			50%{   
@@ -44,19 +44,27 @@ body{
 	bottom: 400px;
 	position: absolute;
 	overflow: hidden;
+	opacity: 0;
 		-webkit-animation-name: skyTopp;
 		-webkit-animation-duration:4s;
-		-webkit-animation-delay: 2s; 
-		-webkit-animation-iteration-count: 3;	
+		-webkit-animation-delay: 9s; 
+		-webkit-animation-iteration-count: 2;	
 	} 
 		@-webkit-keyframes skyTopp{ 
 
  
-			0%{   
+			0%{
+			opacity: 0;
+			bottom: 400px;
+			left:-350px;
+		}
+			1%{
+			opacity: 1;
 			bottom: 400px;
 			left:-350px;
 		}
 			100%{   
+			opacity: 1;
 			bottom: 400px;
 			left:1024px;
 	
@@ -69,19 +77,27 @@ body{
 	bottom: 200px;
 	position: absolute;
 	overflow: hidden;
+	opacity: 0;
 		-webkit-animation-name: skyMid;
-		-webkit-animation-duration:20s;
-		-webkit-animation-delay: 0s; 
+		-webkit-animation-duration:10s;
+		-webkit-animation-delay: 7s; 
 	
 	} 
 		@-webkit-keyframes skyMid{ 
 
  
-			0%{   
+			0%{
+			opacity: 0;   
+			bottom: 200px;
+			left:-350px;
+		}
+		1%{
+			opacity: 1;   
 			bottom: 200px;
 			left:-350px;
 		}
 			100%{   
+			opacity: 1;
 			bottom: 200px;
 			left:1024px;
 	
@@ -94,19 +110,27 @@ body{
 	bottom: 0px;
 	position: absolute;
 	overflow: hidden;
+	opacity: 0;
 		-webkit-animation-name: skyBunn;
-		-webkit-animation-duration:6s;
-		-webkit-animation-delay: 6s; 
-		-webkit-animation-iteration-count: 3;	
+		-webkit-animation-duration:4s;
+		-webkit-animation-delay: 13s; 
+		-webkit-animation-iteration-count: 2;	
 	} 
 		@-webkit-keyframes skyBunn{ 
 
  
-			0%{   
+			0%{
+			opacity: 0;
+			bottom: 0px;
+			left:-350px;
+		}
+		1%{
+			opacity: 1;
 			bottom: 0px;
 			left:-350px;
 		}
 			100%{   
+			opacity: 1;
 			bottom: 0px;
 			left:1024px;
 	
@@ -119,18 +143,26 @@ body{
 	bottom: 300px;
 	position: absolute;
 	overflow: hidden;
+	opacity: 0;
 		-webkit-animation-name: skyStille;
-		-webkit-animation-duration:10s;
-		-webkit-animation-delay: 5s; 	
+		-webkit-animation-duration:5s;
+		-webkit-animation-delay: 12s; 	
 	} 
 		@-webkit-keyframes skyStille{ 
 
  
-			0%{   
+			0%{
+			opacity: 0;   
+			bottom: 300px;
+			left:-350px;
+		}
+		1%{
+			opacity: 1;   
 			bottom: 300px;
 			left:-350px;
 		}
 			100%{   
+			opacity: 1;
 			bottom: 300px;
 			left:1024px;
 	
@@ -142,28 +174,37 @@ body{
 	left:-300px;
 	bottom: 400px;
 	position: absolute;
+	opacity: 0;
 		-webkit-animation-name: star_left;
 		-webkit-animation-fill-mode: forwards;
-		-webkit-animation-duration:10s;
-		-webkit-animation-delay: 11s; 	
+		-webkit-animation-duration:5s;
+		-webkit-animation-delay: 18s; 	
 	} 
 		@-webkit-keyframes star_left{ 
 
  
-			0%{   
+			0%{
+			opacity: 0;
 			left:-300px;
 			bottom:400px;
-
+		}
+		1%{
+			opacity: 1;
+			left:-300px;
+			bottom:400px;
 		}
 			79.9%{   
+			opacity: 1;
 			left:-300px;
 			bottom: 400px;
 		}
 			80%{   
+			opacity: 1;
 			left:100px;
 			bottom: 400px;
 		}
 			100%{   
+			opacity: 1;
 			left:100px;
 			bottom: 400px;
 		}	
@@ -174,28 +215,37 @@ body{
 	left:-300px;
 	bottom: 500px;
 	position: absolute;
+	opacity: 0;
 		-webkit-animation-name: star_mid;
 		-webkit-animation-fill-mode: forwards;
-		-webkit-animation-duration:10s;
-		-webkit-animation-delay: 11s; 	
+		-webkit-animation-duration:5s;
+		-webkit-animation-delay: 18s; 	
 	} 
 		@-webkit-keyframes star_mid{ 
 
  
-			0%{   
+			0%{
+			opacity: 0;   
 			left:-300px;
 			bottom:500px;
-
+		}
+		1%{
+			opacity: 1;   
+			left:-300px;
+			bottom:500px;
 		}
 			79.9%{   
+			opacity: 1;
 			left:-300px;
 			bottom: 500px;
 		}
 			80%{   
+			opacity: 1;
 			left:300px;
 			bottom: 500px;
 		}
 			100%{   
+			opacity: 1;
 			left:300px;
 			bottom: 500px;
 		}	
@@ -206,27 +256,36 @@ body{
 	left:-300px;
 	bottom: 100px;
 	position: absolute;
+	opacity: 0;
 		-webkit-animation-name: star_mide;
 		-webkit-animation-fill-mode: forwards;
-		-webkit-animation-duration:10s;
-		-webkit-animation-delay: 11s; 	
+		-webkit-animation-duration:5s;
+		-webkit-animation-delay: 18s; 	
 	} 
 		@-webkit-keyframes star_mide{ 
 
-			0%{   
+			0%{
+			opacity: 0;
 			left:-300px;
 			bottom:100px;
-
+		}
+		1%{
+			opacity: 1;
+			left:-300px;
+			bottom:100px;
 		}
 			79.9%{   
+			opacity: 1;
 			left:-300px;
 			bottom: 100px;
 		}
 			80%{   
+			opacity: 1;
 			left:600px;
 			bottom: 100px;
 		}
 			100%{   
+			opacity: 1;
 			left:600px;
 			bottom: 100px;
 		}	
@@ -238,28 +297,37 @@ body{
 	left:-300px;
 	bottom: 400px;
 	position: absolute;
+	opacity: 0;
 		-webkit-animation-name: star_right;
 		-webkit-animation-fill-mode: forwards;
-		-webkit-animation-duration:10s;
-		-webkit-animation-delay: 11s; 	
+		-webkit-animation-duration:5s;
+		-webkit-animation-delay: 18s; 	
 	} 
 		@-webkit-keyframes star_right{ 
 
  
-			0%{   
+			0%{
+			opacity: 0;   
 			left:-300px;
 			bottom:400px;
-
 		}
-			79.9%{   
+		1%{
+			opacity: 1;   
+			left:-300px;
+			bottom:400px;
+		}
+			79.9%{
+			opacity: 1;
 			left:-300px;
 			bottom: 400px;
 		}
 			80%{   
+			opacity: 1;
 			left:900px;
 			bottom: 400px;
 		}
 			100%{   
+			opacity: 1;
 			left:900px;
 			bottom: 400px;
 		}	
@@ -290,4 +358,88 @@ body{
 	width: 40px;
 	height: 40px;
 	position: absolute;
+}
+#flyplasswrap {
+		position: absolute;
+		background-image:url("../bilder/OSL.jpg");/*http://cms.nordicarch.com/image/1/960/503/0/uploads/project_images/osl-terminalbygning__f003_s.jpg*/
+		width: 1024px;
+		height: 700px;
+		bottom: 0px;
+		left: 0;
+	}
+	#flylander {
+		bottom: -100px;
+		right: -400px;
+		height: 400px;
+		width: 500px;
+		opacity: 0;
+
+		-webkit-animation-name: flylander;
+		-webkit-animation-delay: 0s;
+		-webkit-animation-duration: 5s;
+		-webkit-animation-fill-mode: forwards;
+	}
+	@-webkit-keyframes flylander {
+		0% {
+			opacity: 0;
+		}
+		1% {
+			right: -400px;
+			opacity: 1;
+		}
+		100% {
+			right: 1324px;
+			opacity: 1;
+		}
+	}
+#hjemreiseinn {
+	position: absolute;
+	width: 1024px;
+	height: 700px;
+	left: 2048px;
+	bottom: 0px;
+	-webkit-animation-name: flyplassinn;
+	-webkit-animation-delay: 5s;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes flyplassinn {
+	from { 
+		left: 2048px;
+		}
+	to {
+		left: 0px;
+	}
+}
+#sluttskjerm {
+	position: absolute;
+	background-color: rgb(255,255,255);
+	width: 1024px;
+	height: 700px;
+	left: 2048px;
+	bottom: 0px;
+	-webkit-animation-name: flyplassinn;
+	-webkit-animation-delay: 17s;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes flyplassinn {
+	from { 
+		left: 2048px;
+		}
+	to {
+		left: 0px;
+	}
+}
+#restart {
+	position: absolute;
+	height: 350px;
+	width: 1024px;
+	bottom: 125px;
+	left: 0px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 100px;
+	color: rgb(0,0,0);
 }
