@@ -39,8 +39,8 @@
 
 	-webkit-animation-name: visBoble;
 	-webkit-animation-timing-function: linear;
-	-webkit-animation-delay: 16s;
-	-webkit-animation-duration: 7s;
+	-webkit-animation-delay: 16.5s;
+	-webkit-animation-duration: 8s;
 	-webkit-animation-fill-mode: forwards;
 }
 
@@ -118,7 +118,7 @@
 
 	-webkit-animation-name: visStjerne;
 	-webkit-animation-timing-function: linear;
-	-webkit-animation-delay: 18.5s;
+	-webkit-animation-delay: 20s;
 	-webkit-animation-duration: 1.5s;
 	-webkit-animation-fill-mode: forwards;
 }
